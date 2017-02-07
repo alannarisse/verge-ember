@@ -1,0 +1,21 @@
+{{#bs-navbar type=type as |navbar|}}
+  <div class="navbar-header">
+    {{#navbar.toggle}}
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    {{/navbar.toggle}}
+  </div>
+	{{#navbar.content}}
+	{{#navbar.nav as |nav|}}
+	    {{#nav.item}}{{#nav.link-to "index"}}Home{{/nav.link-to}}{{/nav.item}}
+	    {{#nav.item}}{{#nav.link-to 'about'}}About{{/nav.link-to}}{{/nav.item}}
+	    {{#nav.item}}{{#nav.link-to 'artists'}}Artists{{/nav.link-to}}{{/nav.item}}
+	    {{#nav.item}}{{#nav.link-to 'venues'}}Venues{{/nav.link-to}}{{/nav.item}}
+	    {{#nav.item}}{{#nav.link-to 'contacts'}}Contact{{/nav.link-to}}{{/nav.item}}
+	 {{/navbar.nav}}
+	 {{/navbar.content}}
+ {{/bs-navbar}}
+
+{{yield}}
