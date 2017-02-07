@@ -9,6 +9,7 @@ export function venueTitle([title, about, address]/*, hash*/) {
 
   	returnStr = about;
   }
+
   return returnStr;
 }
 

@@ -1,6 +1,17 @@
-{{navigation-list}}
 <h2>Artists</h2>
-{{#each model as |artistList|}}
+
+
+<div class="artists-thumbs">
+  <div class="container">
+    <div class="row">
+
+    {{#each model as |artistList|}}
+
+      <div class="col-sm-4 col-md-4">
  		{{artist-list artistList=artistList}}
-{{/each}}
-{{footer-nav}}
+      </div>
+  {{/each}}
+
+    </div>
+  </div>
+</div>

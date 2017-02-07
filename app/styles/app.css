@@ -1,0 +1,25 @@
+/* NAVBAR */
+/* bootstrap overrides */
+
+.navbar-default .navbar-nav > li > a:hover {color:#990000;}
+
+
+a, a:hover, a:active {color:#990000;}
+
+
+
+
+
+
+
+
+/* Universal Header and Footer */
+
+header {padding-left:25px;}
+
+footer {
+	padding:40px 0 20px 20px;
+	width:100%;
+	background-color:#e7e7e7;
+	margin-top:40px;
+}
