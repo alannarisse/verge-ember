@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('artists');
   this.route('exhibitions');
   this.route('contacts');
+  this.route('simione');
 });
 
 export default Router;
