@@ -2,28 +2,8 @@
 
 <img src="assets/images/simione220sq.jpg">
 
-<script>
-// Example 1: From an element in DOM
-$('.open-popup-link').magnificPopup({
-  type:'inline',
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
 
-// Example: 2 Dynamically created
-$('button').magnificPopup({
-  items: {
-      src: '<div class="white-popup">Dynamically created popup</div>',
-      type: 'inline'
-  },
-  closeBtnInside: true
-});
-</script>
-
-<div id="test-popup" class="white-popup mfp-hide">
-  Popup content
-</div>
-<br/><br/>
-<a href="#test-popup" class="open-popup-link">Show inline popup</a><br/>
-<button>Dynamically create and show popup</button>
+<p>Website: <a href="http://angelasimione.weebly.com/">http://angelasimione.weebly.com</a></p>
+{{artist-page-nav}}
 
 {{outlet}}

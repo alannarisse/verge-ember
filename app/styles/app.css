@@ -4,8 +4,11 @@
 .navbar-default .navbar-nav > li > a:hover {color:#990000;}
 
 
-a, a:hover, a:active {color:#990000;}
 
+header h1 {color:#990000;}
+.artist-thumbs h3 {font-size:18px;}
+a, a:active, h3 a, article a, p a, div a {color:#990000;}
+a:hover, div a:hover { color:#600000; text-decoration:none;}
 
 /* Magnific Popup */
 .white-popup {
@@ -18,7 +21,7 @@ a, a:hover, a:active {color:#990000;}
 }
 
 
-
+.artist-thumbs img {padding:40px 0 0 0;}
 
 
 /* Universal Header and Footer */
@@ -26,8 +29,9 @@ a, a:hover, a:active {color:#990000;}
 header {padding-left:25px;}
 
 footer {
-	padding:40px 0 20px 20px;
+	padding:40px 20px 20px 20px;
 	width:100%;
 	background-color:#e7e7e7;
 	margin-top:40px;
+  text-align:right;
 }
