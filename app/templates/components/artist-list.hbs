@@ -1,6 +1,6 @@
 <article id={{artistList.id}}>
 	<a href={{artistList.page}}><img src="{{artistList.image}}"></a><br>
-	<h3><a href={{artistList.page}}>{{artistList.title}}</a></h3>{{artistList.about}}
+	<h3>{{#link-to artistList.page}}{{artistList.title}}{{/link-to}}</h3>{{artistList.about}}
 	<p>Website: <a href={{artistList.link}} target="_blank">{{artistList.link}}</a></p>
 </article>	
 {{yield}}
