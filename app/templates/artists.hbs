@@ -2,16 +2,11 @@
 
 
 <div class="artist-thumbs">
-  <div class="container">
-    <div class="row">
-
-    {{#each model as |artistList|}}
-
-      <div class="col-sm-4 col-md-4">
- 		{{artist-list artistList=artistList}}
-      </div>
-  {{/each}}
-
+    <div class="row auto-clear">
+    	{{#each model as |artistList|}}
+      	<div class="col-xs-6 col-sm-4 col-md-3 col-lg-3">
+ 			{{artist-list artistList=artistList}}
+      	</div>
+ 		{{/each}}
     </div>
-  </div>
 </div>

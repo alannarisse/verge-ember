@@ -1,16 +1,13 @@
 <h2>Venues</h2>
 
 
-<div class="artists-thumbs">
-  <div class="container">
+<div class="venues">
     <div class="row">
-
 		{{#each model as |venueList|}}
-      	<div class="col-sm-4 col-md-4">
+      	<div class="col-sm-12 col-md-6">
  			{{venue-list venueList=venueList}}
       	</div>
   	{{/each}}
     </div>
-  </div>
 </div>
 

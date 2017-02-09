@@ -1,7 +1,16 @@
 <article id={{venueList.id}}>
+	<a href={{venueList.link}}><img src="{{venueList.image}}"></a><br>
+	<h3>{{venueList.title}}</h3>
+	{{venueList.about}}
+	<p>Website: <a href={{venueList.link}} target="_blank">{{venueList.link}}</a></p>
+</article>	
+
+
+
+<!-- <article id={{venueList.id}}>
 	<a href={{venueList.link}} target="_blank">
 	{{venue-title venueList.title venueList.about venueList.address}}
 	</a>
-</article>	
+</article>	-->
 {{yield}}
 
