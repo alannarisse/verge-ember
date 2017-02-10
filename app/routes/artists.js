@@ -30,7 +30,7 @@ let artistList = [{
   title: 'Angela Simione',
   page: 'simione',
   link: 'http://angelasimione.weebly.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'Within the trauma of the redacted document, a new context presents itself… a context in which loss, experienced by the Other, may be felt and understood. Using methods of erasure to create my own "redacted" documents, I make metaphors for the experiences of loss. I present fragments, tiny bits of evidence, allusions to a lost history. It is a poetry born of violence, and it is this violence with which my practice is concerned. What remains, in spite of secrecy, is a new document. A new identity has been constructed. A site of new hope emerges where understanding may be possible.'
 },
 {
   id: 5,
@@ -46,7 +46,7 @@ let artistList = [{
   title: 'Kara Nelson',
   page: 'nelson',
   link: 'http://www.karanelson.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'Kara Nelson is an artist living and working in the Oakland, CA. She uses her own trash to collage images of landscapes and make small-scale, abstract, and sometimes functional sculptures. '
 },
 {
   id: 7,
@@ -54,7 +54,7 @@ let artistList = [{
   title: 'Bertrand Morin',
   page: 'morin',
   link: 'http://bertrandmorin.net/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'I use written and photographic observations as the foundation for the creation of fictional characters, alternate worlds, and illogical anthropologies. The various levels of obfuscation and revelation that the text and images provide for viewers is intended to place my work in a limbo between truth and fiction, and to bend the line between historical archive and pseudoscientific farce.'
 },
 {
   id: 8,
@@ -70,7 +70,7 @@ let artistList = [{
   title: 'Danielle Schlunegger-Warner',
   page: 'schlunegger',
   link: 'http://www.schlunegger.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'Danielle Schlunegger-Warner grew up amongst the shell shops and sand dunes of Ventura, CA. Her artwork is strongly influenced by 18th century Cabinets of Curiosity and early explorers.'
 },
 {
   id: 10,
@@ -78,7 +78,7 @@ let artistList = [{
   title: 'Ehren Reed',
   page: 'reed',
   link: 'http://www.ehrenreed.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'Using found photographs re-processed through digital manipulation and her signature stitching technique, Ehren Reed’s work examines the value we place on memory in the current digital environment. Her most recent work employs photographs pulled from yearbooks and photo albums discovered at thrift stores— once keepsakes to treasure, now cast aside and forgotten.'
 },
 {
   id: 11,
@@ -86,7 +86,7 @@ let artistList = [{
   title: 'A•C•M Lorish',
   page: 'lorish',
   link: 'http://www.acmlorish.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'A•C•M• Lorish was born in Eugene, Oregon. He studied at School of the Art Institute of Chicago, and Pacific Northwest College of Art where in 2013 he received his MFA in Visual Studies. Selected exhibitions include False Front in Portland, Rockerill in Charleroi Belgium, and dOCUMENTA (13) in Kassel, Germany. He is a founding member of the art collective Danger Punch. He lives and works in Portland Oregon.'
 },
 {
   id: 12,
@@ -94,7 +94,7 @@ let artistList = [{
   title: 'Kelly McGovern',
   page: 'mcgovern',
   link: 'http://www.acmlorish.com/',
-  about: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac finibus ligula, tincidunt condimentum lectus. Maecenas elementum libero ut ipsum varius, ac pretium magna placerat. Aenean interdum ut quam et pharetra. Nulla facilisi. Nam convallis interdum libero iaculis accumsan.'
+  about: 'Kelly McGovern is a multimedia artist. Her work explores motion and language in hopes of finding comfort in escape. She has shown nationally in several major cities including New York, Philadelphia, Washington DC, Salt Lake City, and Portland Oregon, as well as internationally in Hereford, UK. She received her BFA from Moore College of Art and Design in Philadelphia, Pennsylvania and received her MFA from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 },
 {
   id: 13,
