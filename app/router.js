@@ -12,20 +12,27 @@ Router.map(function() {
   this.route('artists');
   this.route('exhibitions');
   this.route('contacts');
-  this.route('simione');
-  this.route('risse');
-  this.route('morin');
-  this.route('kruse');
-  this.route('schlunegger');
-  this.route('nelson');
-  this.route('lorish');
-  this.route('berlin');
-  this.route('reeves');
-  this.route('mcgovern');
-  this.route('mulder');
-  this.route('void');
-  this.route('miyamoto');
-  this.route('reed');
+
+  this.route('page-not-found', {
+    path: '/*wildcard'
+  });
+
+  this.route('artist', function() {
+    this.route('berlin');
+    this.route('kruse');
+    this.route('lorish');
+    this.route('mulder');
+    this.route('void');
+    this.route('simione');
+    this.route('schlunegger');
+    this.route('risse');
+    this.route('reeves');
+    this.route('reed');
+    this.route('nelson');
+    this.route('morin');
+    this.route('miyamoto');
+    this.route('mcgovern');
+  });
 });
 
 export default Router;

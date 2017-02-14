@@ -43,5 +43,8 @@
   "engines": {
     "node": ">= 0.12.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "magnific-popup": "^1.1.0"
+  }
 }

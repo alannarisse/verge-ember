@@ -36,6 +36,15 @@ define('verge-ember/tests/components/footer-nav.jshint.lint-test', ['exports'], 
     assert.ok(true, 'components/footer-nav.js should pass jshint.');
   });
 });
+define('verge-ember/tests/components/magnific-popup.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | components/magnific-popup.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'components/magnific-popup.js should pass jshint.\ncomponents/magnific-popup.js: line 6, col 15, \'$\' is not defined.\ncomponents/magnific-popup.js: line 8, col 13, \'$\' is not defined.\ncomponents/magnific-popup.js: line 9, col 13, \'$\' is not defined.\n\n3 errors');
+  });
+});
 define('verge-ember/tests/components/navigation-list.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -275,6 +284,44 @@ define('verge-ember/tests/integration/components/footer-nav-test.jshint.lint-tes
     assert.ok(true, 'integration/components/footer-nav-test.js should pass jshint.');
   });
 });
+define('verge-ember/tests/integration/components/magnific-popup-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleForComponent)('magnific-popup', 'Integration | Component | magnific popup', {
+    integration: true
+  });
+
+  (0, _emberQunit.test)('it renders', function (assert) {
+
+    // Set any properties with this.set('myProperty', 'value');
+    // Handle any actions with this.on('myAction', function(val) { ... });
+
+    this.render(Ember.HTMLBars.template({
+      'id': 'w4MbJrdn',
+      'block': '{"statements":[["append",["unknown",["magnific-popup"]],false]],"locals":[],"named":[],"yields":[],"blocks":[],"hasPartials":false}',
+      'meta': {}
+    }));
+
+    assert.equal(this.$().text().trim(), '');
+
+    // Template block usage:
+    this.render(Ember.HTMLBars.template({
+      'id': 'Ex18ZUeR',
+      'block': '{"statements":[["text","\\n"],["block",["magnific-popup"],null,null,0],["text","  "]],"locals":[],"named":[],"yields":[],"blocks":[{"statements":[["text","      template block text\\n"]],"locals":[]}],"hasPartials":false}',
+      'meta': {}
+    }));
+
+    assert.equal(this.$().text().trim(), 'template block text');
+  });
+});
+define('verge-ember/tests/integration/components/magnific-popup-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | integration/components/magnific-popup-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'integration/components/magnific-popup-test.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/integration/components/navigation-list-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleForComponent)('navigation-list', 'Integration | Component | navigation list', {
@@ -378,6 +425,132 @@ define('verge-ember/tests/routes/about.jshint.lint-test', ['exports'], function 
     assert.ok(true, 'routes/about.js should pass jshint.');
   });
 });
+define('verge-ember/tests/routes/artist/berlin.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/berlin.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/berlin.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/kruse.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/kruse.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/kruse.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/lorish.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/lorish.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/lorish.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/mcgovern.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/mcgovern.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/mcgovern.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/miyamoto.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/miyamoto.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/miyamoto.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/morin.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/morin.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/morin.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/mulder.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/mulder.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/mulder.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/nelson.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/nelson.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/nelson.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/reed.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/reed.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/reed.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/reeves.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/reeves.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/reeves.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/risse.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/risse.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/risse.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/schlunegger.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/schlunegger.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/schlunegger.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/simione.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/simione.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/simione.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/routes/artist/void.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/void.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/void.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/routes/artists.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -385,15 +558,6 @@ define('verge-ember/tests/routes/artists.jshint.lint-test', ['exports'], functio
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/artists.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/berlin.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/berlin.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/berlin.js should pass jshint.');
   });
 });
 define('verge-ember/tests/routes/contacts.jshint.lint-test', ['exports'], function (exports) {
@@ -423,112 +587,13 @@ define('verge-ember/tests/routes/index.jshint.lint-test', ['exports'], function 
     assert.ok(true, 'routes/index.js should pass jshint.');
   });
 });
-define('verge-ember/tests/routes/kruse.jshint.lint-test', ['exports'], function (exports) {
+define('verge-ember/tests/routes/page-not-found.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint | routes/kruse.js');
+  QUnit.module('JSHint | routes/page-not-found.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'routes/kruse.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/lorish.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/lorish.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/lorish.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/mcgovern.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/mcgovern.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/mcgovern.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/miyamoto.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/miyamoto.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/miyamoto.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/morin.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/morin.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/morin.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/mulder.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/mulder.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/mulder.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/nelson.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/nelson.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/nelson.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/reed.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/reed.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/reed.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/reeves.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/reeves.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/reeves.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/risse.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/risse.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/risse.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/schlunegger.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/schlunegger.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/schlunegger.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/simione.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/simione.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/simione.js should pass jshint.');
+    assert.ok(true, 'routes/page-not-found.js should pass jshint.');
   });
 });
 define('verge-ember/tests/routes/venues.jshint.lint-test', ['exports'], function (exports) {
@@ -538,15 +603,6 @@ define('verge-ember/tests/routes/venues.jshint.lint-test', ['exports'], function
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/venues.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/routes/void.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | routes/void.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'routes/void.js should pass jshint.');
   });
 });
 define('verge-ember/tests/test-helper', ['exports', 'verge-ember/tests/helpers/resolver', 'ember-qunit'], function (exports, _vergeEmberTestsHelpersResolver, _emberQunit) {
@@ -602,6 +658,300 @@ define('verge-ember/tests/unit/routes/about-test.jshint.lint-test', ['exports'],
     assert.ok(true, 'unit/routes/about-test.js should pass jshint.');
   });
 });
+define('verge-ember/tests/unit/routes/artist/berlin-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/berlin', 'Unit | Route | artist/berlin', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/berlin-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/berlin-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/berlin-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/kruse-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/kruse', 'Unit | Route | artist/kruse', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/kruse-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/kruse-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/kruse-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/lorish-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/lorish', 'Unit | Route | artist/lorish', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/lorish-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/lorish-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/lorish-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/mcgovern-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/mcgovern', 'Unit | Route | artist/mcgovern', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/mcgovern-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/mcgovern-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/mcgovern-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/miyamoto-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/miyamoto', 'Unit | Route | artist/miyamoto', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/miyamoto-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/miyamoto-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/miyamoto-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/morin-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/morin', 'Unit | Route | artist/morin', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/morin-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/morin-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/morin-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/mulder-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/mulder', 'Unit | Route | artist/mulder', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/mulder-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/mulder-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/mulder-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/nelson-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/nelson', 'Unit | Route | artist/nelson', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/nelson-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/nelson-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/nelson-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/reed-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/reed', 'Unit | Route | artist/reed', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/reed-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/reed-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/reed-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/reeves-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/reeves', 'Unit | Route | artist/reeves', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/reeves-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/reeves-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/reeves-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/risse-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/risse', 'Unit | Route | artist/risse', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/risse-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/risse-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/risse-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/schlunegger-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/schlunegger', 'Unit | Route | artist/schlunegger', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/schlunegger-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/schlunegger-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/schlunegger-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/simione-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/simione', 'Unit | Route | artist/simione', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/simione-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/simione-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/simione-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/void-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/void', 'Unit | Route | artist/void', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/void-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/void-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/void-test.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/unit/routes/artists-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
   (0, _emberQunit.moduleFor)('route:artists', 'Unit | Route | artists', {
@@ -621,27 +971,6 @@ define('verge-ember/tests/unit/routes/artists-test.jshint.lint-test', ['exports'
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/artists-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/berlin-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:berlin', 'Unit | Route | berlin', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/berlin-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/berlin-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/berlin-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/contacts-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
@@ -707,9 +1036,9 @@ define('verge-ember/tests/unit/routes/index-test.jshint.lint-test', ['exports'],
     assert.ok(true, 'unit/routes/index-test.js should pass jshint.');
   });
 });
-define('verge-ember/tests/unit/routes/kruse-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+define('verge-ember/tests/unit/routes/page-not-found-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
 
-  (0, _emberQunit.moduleFor)('route:kruse', 'Unit | Route | kruse', {
+  (0, _emberQunit.moduleFor)('route:page-not-found', 'Unit | Route | page not found', {
     // Specify the other units that are required for this test.
     // needs: ['controller:foo']
   });
@@ -719,244 +1048,13 @@ define('verge-ember/tests/unit/routes/kruse-test', ['exports', 'ember-qunit'], f
     assert.ok(route);
   });
 });
-define('verge-ember/tests/unit/routes/kruse-test.jshint.lint-test', ['exports'], function (exports) {
+define('verge-ember/tests/unit/routes/page-not-found-test.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint | unit/routes/kruse-test.js');
+  QUnit.module('JSHint | unit/routes/page-not-found-test.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(true, 'unit/routes/kruse-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/lorish-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:lorish', 'Unit | Route | lorish', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/lorish-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/lorish-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/lorish-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/mcgovern-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:mcgovern', 'Unit | Route | mcgovern', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/mcgovern-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/mcgovern-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/mcgovern-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/miyamoto-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:miyamoto', 'Unit | Route | miyamoto', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/miyamoto-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/miyamoto-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/miyamoto-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/morin-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:morin', 'Unit | Route | morin', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/morin-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/morin-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/morin-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/mulder-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:mulder', 'Unit | Route | mulder', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/mulder-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/mulder-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/mulder-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/nelson-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:nelson', 'Unit | Route | nelson', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/nelson-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/nelson-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/nelson-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/reed-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:reed', 'Unit | Route | reed', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/reed-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/reed-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/reed-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/reeves-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:reeves', 'Unit | Route | reeves', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/reeves-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/reeves-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/reeves-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/risse-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:risse', 'Unit | Route | risse', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/risse-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/risse-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/risse-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/schlunegger-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:schlunegger', 'Unit | Route | schlunegger', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/schlunegger-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/schlunegger-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/schlunegger-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/simione-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:simione', 'Unit | Route | simione', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/simione-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/simione-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/simione-test.js should pass jshint.');
+    assert.ok(true, 'unit/routes/page-not-found-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/venues-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
@@ -978,27 +1076,6 @@ define('verge-ember/tests/unit/routes/venues-test.jshint.lint-test', ['exports']
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/venues-test.js should pass jshint.');
-  });
-});
-define('verge-ember/tests/unit/routes/void-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
-
-  (0, _emberQunit.moduleFor)('route:void', 'Unit | Route | void', {
-    // Specify the other units that are required for this test.
-    // needs: ['controller:foo']
-  });
-
-  (0, _emberQunit.test)('it exists', function (assert) {
-    var route = this.subject();
-    assert.ok(route);
-  });
-});
-define('verge-ember/tests/unit/routes/void-test.jshint.lint-test', ['exports'], function (exports) {
-  'use strict';
-
-  QUnit.module('JSHint | unit/routes/void-test.js');
-  QUnit.test('should pass jshint', function (assert) {
-    assert.expect(1);
-    assert.ok(true, 'unit/routes/void-test.js should pass jshint.');
   });
 });
 /* jshint ignore:start */
