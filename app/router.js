@@ -18,8 +18,8 @@ Router.map(function() {
   });
 
   this.route('artist', function() {
-    this.route('berlin');
-    this.route('kruse');
+    this.route('berlin', { path: '/berlin' });
+    this.route('kruse', { path: '/kruse' });
     this.route('lorish');
     this.route('mulder');
     this.route('void');

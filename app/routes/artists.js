@@ -117,5 +117,5 @@ let artistList = [{
 export default Ember.Route.extend({
 	model(){
 		return artistList;
-	}
+	},
 });

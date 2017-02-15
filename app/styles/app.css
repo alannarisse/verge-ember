@@ -1,3 +1,18 @@
+/* FONT IMPORT */
+
+@font-face {
+    font-family: 'acremedium';
+    src: url('/assets/fonts/acre-medium-webfont.eot');
+    src: url('/assets/fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/acre-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/acre-medium-webfont.woff') format('woff'),
+         url('/assets/fonts/acre-medium-webfont.ttf') format('truetype'),
+         url('/assets/fonts/acre-medium-webfont.svg#acremedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Global Styles */
 
 
@@ -12,7 +27,13 @@ a i {color:#666;}
 a:hover i {color:#990000;}
 
 /* Header and Footer */
-header h1 {color:#990000;}
+header h1, .container h2, .container h3 {
+  font-family: 'acremedium';
+}
+header h1 {
+  color:#990000;
+}
+
 h1 a, h1 a:active, h1 a:hover, h1 a:focus  {
   text-decoration:none;
   color:#990000;
@@ -22,16 +43,21 @@ header {
   padding-left:25px;
 }
 
+
+
 footer {
-  padding:40px 20px 20px 20px;
+  padding:20px 20px 0 20px;
   width:100%;
   background-color:#e7e7e7;
-  margin-top:60px;
+  margin-top:40px;
   text-align:right;
 }
 
 footer .left {text-align:left;}
 footer i {padding-right:10px;}
+footer p, footer p a {  
+  font-color:#999;
+}
 /* /Header and Footer */
 
 
