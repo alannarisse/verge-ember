@@ -34,6 +34,7 @@
     "ember-cli-uglify": "^1.2.0",
     "ember-data": "^2.11.0",
     "ember-export-application-global": "^1.0.5",
+    "ember-justified-gallery": "0.0.2",
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.11.0",
@@ -45,6 +46,9 @@
   },
   "private": true,
   "dependencies": {
+    "ember-cli-lightbox": "^1.0.2",
+    "justified-gallery": "^0.1.0",
+    "lightbox2": "^2.9.0",
     "magnific-popup": "^1.1.0"
   }
 }

@@ -1,5 +1,5 @@
 <div class="artist-page">
-	<h2>{{title}}</h2>
+	<h2>Jason Berlin</h2>
 	<p>{{#link-to 'venues'}}Red Fox{{/link-to}}<br>
 	March 2017
 	</p>
@@ -7,7 +7,29 @@
 	August, 2016
 	</p>
 
-	<img src="/assets/images/berlin/zags1024.jpg">
+
+<!-- {{#justified-gallery  captions=true}}
+
+    	{{#each model as |berlinGallery|}}
+ 			{{berlin-gallery berlinGallery=berlinGallery}}
+ 		{{/each}}
+
+{{/justified-gallery}} -->
+
+<br>
+	
+{{light-box href="/assets/images/berlin/zags1024.jpg" data-lightbox="cats-group" data-title="Cat 5"}}
+
+{{#light-box href="/assets/images/berlin/jberlincaduceus02.jpg" data-lightbox="cats-group" data-title="Cat 6"  inlineImage=false}}
+{{/light-box}}
+
+{{light-box href="/assets/images/berlin/berlincolorreflections01.jpg" data-lightbox="cats-group" data-title="Cat 7"  inlineImage=false}}
+
+
+
+
+<br>
+
 
 	<h3>Biograhy</h3>
 
