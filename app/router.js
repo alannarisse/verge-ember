@@ -14,8 +14,9 @@ Router.map(function() {
   this.route('contacts');
 
   this.route('page-not-found', {
-    path: '/*wildcard'
+    path: '/*path'
   });
+
 
   this.route('artist', function() {
     this.route('berlin', { path: '/berlin' });
