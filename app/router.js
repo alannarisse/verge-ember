@@ -34,6 +34,7 @@ Router.map(function() {
     this.route('miyamoto');
     this.route('mcgovern');
   });
+  this.route('news');
 });
 
 export default Router;

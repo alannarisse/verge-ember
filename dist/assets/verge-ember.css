@@ -26,13 +26,33 @@ a:hover, div a:hover {
 a i {color:#666;}
 a:hover i {color:#990000;}
 
+
+
 /* Header and Footer */
+
+header {height:128px;
+  margin-left:20px;}
 header h1, .container h2, .container h3 {
   font-family: 'acremedium';
 }
 header h1 {
   color:#990000;
+  font-size:48px;
+  padding:50px 0 0 26px;
 }
+ .tagline {
+  font-size:14px;
+  margin-top: -18px;
+  padding-left: 132px;
+  color:#666;
+
+}
+
+/* Not Working!!! 
+header h1 .logo {
+    background: url ('/assets/images/verge_circles.png');
+    background-repeat: no-repeat;
+} */
 
 h1 a, h1 a:active, h1 a:hover, h1 a:focus  {
   text-decoration:none;
@@ -59,7 +79,16 @@ footer p, footer p a {
   font-color:#999;
 }
 
+/* Adds space above footer */
+.container {padding-bottom:120px;}
+.mobile-footer {display:none;}
 
+@media (max-width: 768px){
+  .container {padding-bottom:80px;}
+  footer {padding:6px;}
+  .footer {display:none;}
+  .mobile-footer {display:inline;}
+}
 
 /* /Header and Footer */
 
@@ -73,6 +102,13 @@ footer p, footer p a {
 /* Home Page */
 
 /* /Home Page */
+
+
+/* News Page */
+.news .row img {width:95%;}
+
+/* /News Page */
+
 
 /* Artist Main Page */
 

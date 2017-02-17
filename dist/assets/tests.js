@@ -672,6 +672,15 @@ define('verge-ember/tests/routes/index.jshint.lint-test', ['exports'], function 
     assert.ok(true, 'routes/index.js should pass jshint.');
   });
 });
+define('verge-ember/tests/routes/news.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/news.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/news.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/routes/page-not-found.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -1119,6 +1128,27 @@ define('verge-ember/tests/unit/routes/index-test.jshint.lint-test', ['exports'],
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/index-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/news-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:news', 'Unit | Route | news', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/news-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/news-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/news-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/page-not-found-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {

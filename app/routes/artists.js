@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 let artistList = [{
   id: 1,
-  image: 'assets/images/mulder220sq.jpg',
+  image: 'assets/images/thumbs/mulder220sq.jpg',
   title: 'Rachel Mulder',
   page: 'artist.mulder',
   link: 'https://rachelmulderart.blogspot.com/',
@@ -10,7 +10,7 @@ let artistList = [{
 },
 {
   id: 2,
-  image: 'assets/images/schlunegger220sq.jpg',
+  image: 'assets/images/thumbs/schlunegger220sq.jpg',
   title: 'Danielle Schlunegger-Warner',
   page: 'artist.schlunegger',
   link: 'http://www.schlunegger.com/',
@@ -18,7 +18,7 @@ let artistList = [{
 },
 {
   id: 3,
-  image: 'assets/images/berlin220sq.jpg',
+  image: 'assets/images/thumbs/berlin220sq.jpg',
   title: 'Jason Berlin',
   page: 'artist.berlin',
   link: 'http://jasonberlinthomas.com',
@@ -26,7 +26,7 @@ let artistList = [{
 },
 {
   id: 4,
-  image: 'assets/images/barce220sq.jpg',
+  image: 'assets/images/thumbs/barce220sq.jpg',
   title: 'Epochal Void',
   page: 'artist.void',
   link: 'http://epochalvoid.com/',
@@ -34,7 +34,7 @@ let artistList = [{
 },
 {
   id: 5,
-  image: 'assets/images/simione220sq.jpg',
+  image: 'assets/images/thumbs/simione220sq.jpg',
   title: 'Angela Simione',
   page: 'artist.simione',
   link: 'http://angelasimione.weebly.com/',
@@ -42,7 +42,7 @@ let artistList = [{
 },
 {
   id: 6,
-  image: 'assets/images/miyamoto220sq.jpg',
+  image: 'assets/images/thumbs/miyamoto220sq.jpg',
   title: 'Kanani Miyamoto',
   page: 'artist.miyamoto',
   link: 'http://c-k-miyamoto.tumblr.com/',
@@ -50,7 +50,7 @@ let artistList = [{
 },
 {
   id: 7,
-  image: 'assets/images/risse220sq.jpg',
+  image: 'assets/images/thumbs/risse220sq.jpg',
   title: 'Alanna Risse',
   page: 'artist.risse',
   link: 'http://alannarisse.com',
@@ -58,7 +58,7 @@ let artistList = [{
 },
 {
   id: 8,
-  image: 'assets/images/reeves220sq.jpg',
+  image: 'assets/images/thumbs/reeves220sq.jpg',
   title: 'Veronica Reeves',
   page: 'artist.reeves',
   link: 'http://www.v2r2please.com/',
@@ -66,7 +66,7 @@ let artistList = [{
 },
 {
   id: 9,
-  image: 'assets/images/nelson220sq.jpg',
+  image: 'assets/images/thumbs/nelson220sq.jpg',
   title: 'Kara Nelson',
   page: 'artist.nelson',
   link: 'http://www.karanelson.com/',
@@ -74,7 +74,7 @@ let artistList = [{
 },
 {
   id: 10,
-  image: 'assets/images/morin220sq.jpg',
+  image: 'assets/images/thumbs/morin220sq.jpg',
   title: 'Bertrand Morin',
   page: 'artist.morin',
   link: 'http://bertrandmorin.net/',
@@ -82,7 +82,7 @@ let artistList = [{
 },
 {
   id: 11,
-  image: 'assets/images/kruse220sq.jpg',
+  image: 'assets/images/thumbs/kruse220sq.jpg',
   title: 'Brandi Kruse',
   page: 'artist.kruse',
   link: 'http://www.brandikruse.com/',
@@ -90,7 +90,7 @@ let artistList = [{
 },
 {
   id: 12,
-  image: 'assets/images/reed220sq.jpg',
+  image: 'assets/images/thumbs/reed220sq.jpg',
   title: 'Ehren Reed',
   page: 'artist.reed',
   link: 'http://www.ehrenreed.com/',
@@ -98,7 +98,7 @@ let artistList = [{
 },
 {
   id: 13,
-  image: 'assets/images/lorish220sq.jpg',
+  image: 'assets/images/thumbs/lorish220sq.jpg',
   title: 'A•C•M Lorish',
   page: 'artist.lorish',
   link: 'http://www.acmlorish.com/',
@@ -106,7 +106,7 @@ let artistList = [{
 },
 {
   id: 14,
-  image: 'assets/images/mcgovern220sq.jpg',
+  image: 'assets/images/thumbs/mcgovern220sq.jpg',
   title: 'Kelly McGovern',
   page: 'artist.mcgovern',
   link: 'http://www.acmlorish.com/',
