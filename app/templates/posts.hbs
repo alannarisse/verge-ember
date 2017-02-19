@@ -1,0 +1,11 @@
+<h2>Posts</h2>
+<section>
+{{#each model as |post|}}
+<div>
+  <div>{{post.title}}</div>
+  <div>{{post.body}}</div>
+</div>
+{{/each}}
+</section>
+
+{{outlet}}

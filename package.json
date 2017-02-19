@@ -28,6 +28,7 @@
     "ember-cli-jshint": "^2.0.1",
     "ember-cli-qunit": "^3.0.1",
     "ember-cli-release": "^0.2.9",
+    "ember-cli-sass": "6.1.1",
     "ember-cli-shims": "^1.0.2",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-test-loader": "^1.1.0",
@@ -38,6 +39,7 @@
     "ember-load-initializers": "^0.6.0",
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.11.0",
+    "emberfire": "github:firebase/emberfire#master",
     "loader.js": "^4.0.10",
     "mirage": "0.0.6"
   },
@@ -47,6 +49,7 @@
   "private": true,
   "dependencies": {
     "ember-cli-lightbox": "^1.0.2",
+    "ember-cli-sass": "^6.1.1",
     "justified-gallery": "^0.1.0",
     "lightbox2": "^2.9.0",
     "magnific-popup": "^1.1.0"

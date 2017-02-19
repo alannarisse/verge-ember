@@ -1,5 +1,14 @@
 'use strict';
 
+define('verge-ember/tests/adapters/application.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | adapters/application.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'adapters/application.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/app.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -72,6 +81,54 @@ define('verge-ember/tests/components/venue-list.jshint.lint-test', ['exports'], 
     assert.ok(true, 'components/venue-list.js should pass jshint.');
   });
 });
+define('verge-ember/tests/helpers/create-offline-ref', ['exports', 'firebase'], function (exports, _firebase) {
+  exports['default'] = createOfflineRef;
+
+  /**
+   * Creates an offline firebase reference with optional initial data and url.
+   *
+   * Be sure to `stubfirebase()` and `unstubfirebase()` in your tests!
+   *
+   * @param  {!Object} [initialData]
+   * @param  {string} [url]
+   * @param  {string} [apiKey]
+   * @return {!firebase.database.Reference}
+   */
+
+  function createOfflineRef(initialData) {
+    var url = arguments.length <= 1 || arguments[1] === undefined ? 'https://emberfire-tests-2c814.firebaseio.com' : arguments[1];
+    var apiKey = arguments.length <= 2 || arguments[2] === undefined ? 'AIzaSyC9-ndBb1WR05rRF1msVQDV6EBqB752m6o' : arguments[2];
+
+    if (!_firebase['default']._unStub) {
+      throw new Error('Please use stubFirebase() before calling this method');
+    }
+
+    var config = {
+      apiKey: apiKey,
+      authDomain: 'emberfire-tests-2c814.firebaseapp.com',
+      databaseURL: url,
+      storageBucket: ''
+    };
+
+    var app = undefined;
+
+    try {
+      app = _firebase['default'].app();
+    } catch (e) {
+      app = _firebase['default'].initializeApp(config);
+    }
+
+    var ref = app.database().ref();
+
+    app.database().goOffline(); // must be called after the ref is created
+
+    if (initialData) {
+      ref.set(initialData);
+    }
+
+    return ref;
+  }
+});
 define('verge-ember/tests/helpers/destroy-app', ['exports', 'ember'], function (exports, _ember) {
   exports['default'] = destroyApp;
 
@@ -87,6 +144,25 @@ define('verge-ember/tests/helpers/destroy-app.jshint.lint-test', ['exports'], fu
     assert.expect(1);
     assert.ok(true, 'helpers/destroy-app.js should pass jshint.');
   });
+});
+define('verge-ember/tests/helpers/destroy-firebase-apps', ['exports', 'ember', 'firebase'], function (exports, _ember, _firebase) {
+  exports['default'] = destroyFirebaseApps;
+  var run = _ember['default'].run;
+
+  /**
+   * Destroy all Firebase apps.
+   */
+
+  function destroyFirebaseApps() {
+    var deletions = _firebase['default'].apps.map(function (app) {
+      return app['delete']();
+    });
+    _ember['default'].RSVP.all(deletions).then(function () {
+      return run(function () {
+        // NOOP to delay run loop until the apps are destroyed
+      });
+    });
+  }
 });
 define('verge-ember/tests/helpers/module-for-acceptance', ['exports', 'qunit', 'ember', 'verge-ember/tests/helpers/start-app', 'verge-ember/tests/helpers/destroy-app'], function (exports, _qunit, _ember, _vergeEmberTestsHelpersStartApp, _vergeEmberTestsHelpersDestroyApp) {
   var Promise = _ember['default'].RSVP.Promise;
@@ -122,6 +198,43 @@ define('verge-ember/tests/helpers/module-for-acceptance.jshint.lint-test', ['exp
     assert.expect(1);
     assert.ok(true, 'helpers/module-for-acceptance.js should pass jshint.');
   });
+});
+define('verge-ember/tests/helpers/replace-app-ref', ['exports'], function (exports) {
+  exports['default'] = replaceAppRef;
+  /**
+   * Updates the supplied app adapter's Firebase reference.
+   *
+   * @param  {!Ember.Application} app
+   * @param  {!firebase.database.Reference} ref
+   * @param  {string} [model]  The model, if overriding a model specific adapter
+   */
+
+  function replaceAppRef(app, ref) {
+    var model = arguments.length <= 2 || arguments[2] === undefined ? 'application' : arguments[2];
+
+    app.register('service:firebaseMock', ref, { instantiate: false, singleton: true });
+    app.inject('adapter:firebase', 'firebase', 'service:firebaseMock');
+    app.inject('adapter:' + model, 'firebase', 'service:firebaseMock');
+  }
+});
+define('verge-ember/tests/helpers/replace-firebase-app-service', ['exports'], function (exports) {
+  exports['default'] = replaceFirebaseAppService;
+  /**
+   * Replaces the `firebaseApp` service with your own using injection overrides.
+   *
+   * This is usually not needed in test modules, where you can re-register over
+   * existing names in the registry, but in acceptance tests, some registry/inject
+   * magic is needed.
+   *
+   * @param  {!Ember.Application} app
+   * @param  {!Object} newService
+   */
+
+  function replaceFirebaseAppService(app, newService) {
+    app.register('service:firebaseAppMock', newService, { instantiate: false, singleton: true });
+    app.inject('torii-provider:firebase', 'firebaseApp', 'service:firebaseAppMock');
+    app.inject('torii-adapter:firebase', 'firebaseApp', 'service:firebaseAppMock');
+  }
 });
 define('verge-ember/tests/helpers/resolver', ['exports', 'verge-ember/resolver', 'verge-ember/config/environment'], function (exports, _vergeEmberResolver, _vergeEmberConfigEnvironment) {
 
@@ -169,6 +282,62 @@ define('verge-ember/tests/helpers/start-app.jshint.lint-test', ['exports'], func
     assert.expect(1);
     assert.ok(true, 'helpers/start-app.js should pass jshint.');
   });
+});
+define('verge-ember/tests/helpers/stub-firebase', ['exports', 'firebase'], function (exports, _firebase) {
+  exports['default'] = stubFirebase;
+
+  /**
+   * When a reference is in offline mode it will not call any callbacks
+   * until it goes online and resyncs. The ref will have already
+   * updated its internal cache with the changed values so we shortcut
+   * the process and call the supplied callbacks immediately (asynchronously).
+   */
+
+  function stubFirebase() {
+    // check for existing stubbing
+    if (!_firebase['default']._unStub) {
+      var originalSet = _firebase['default'].database.Reference.prototype.set;
+      var originalUpdate = _firebase['default'].database.Reference.prototype.update;
+      var originalRemove = _firebase['default'].database.Reference.prototype.remove;
+
+      _firebase['default']._unStub = function () {
+        _firebase['default'].database.Reference.prototype.set = originalSet;
+        _firebase['default'].database.Reference.prototype.update = originalUpdate;
+        _firebase['default'].database.Reference.prototype.remove = originalRemove;
+      };
+
+      _firebase['default'].database.Reference.prototype.set = function (data, cb) {
+        originalSet.call(this, data);
+        if (typeof cb === 'function') {
+          setTimeout(cb, 0);
+        }
+      };
+
+      _firebase['default'].database.Reference.prototype.update = function (data, cb) {
+        originalUpdate.call(this, data);
+        if (typeof cb === 'function') {
+          setTimeout(cb, 0);
+        }
+      };
+
+      _firebase['default'].database.Reference.prototype.remove = function (cb) {
+        originalRemove.call(this);
+        if (typeof cb === 'function') {
+          setTimeout(cb, 0);
+        }
+      };
+    }
+  }
+});
+define('verge-ember/tests/helpers/unstub-firebase', ['exports', 'firebase'], function (exports, _firebase) {
+  exports['default'] = unstubFirebase;
+
+  function unstubFirebase() {
+    if (typeof _firebase['default']._unStub === 'function') {
+      _firebase['default']._unStub();
+      delete _firebase['default']._unStub;
+    }
+  }
 });
 define('verge-ember/tests/helpers/venue-title.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
@@ -489,7 +658,16 @@ define('verge-ember/tests/models/person.jshint.lint-test', ['exports'], function
   QUnit.module('JSHint | models/person.js');
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
-    assert.ok(false, 'models/person.js should pass jshint.\nmodels/person.js: line 9, col 13, \'Ember\' is not defined.\n\n1 error');
+    assert.ok(true, 'models/person.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/models/post.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | models/post.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'models/post.js should pass jshint.');
   });
 });
 define('verge-ember/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
@@ -699,6 +877,15 @@ define('verge-ember/tests/routes/page-not-found.jshint.lint-test', ['exports'], 
     assert.ok(true, 'routes/page-not-found.js should pass jshint.');
   });
 });
+define('verge-ember/tests/routes/posts.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/posts.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/posts.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/routes/venues.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -760,6 +947,28 @@ define('verge-ember/tests/unit/models/person-test.jshint.lint-test', ['exports']
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/models/person-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/models/post-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleForModel)('post', 'Unit | Model | post', {
+    // Specify the other units that are required for this test.
+    needs: []
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var model = this.subject();
+    // let store = this.store();
+    assert.ok(!!model);
+  });
+});
+define('verge-ember/tests/unit/models/post-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/models/post-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/models/post-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/about-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
@@ -1201,6 +1410,27 @@ define('verge-ember/tests/unit/routes/page-not-found-test.jshint.lint-test', ['e
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/page-not-found-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/posts-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:posts', 'Unit | Route | posts', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/posts-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/posts-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/posts-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/venues-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {

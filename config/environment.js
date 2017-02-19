@@ -1,6 +1,7 @@
 /* jshint node: true */
 
 module.exports = function(environment) {
+  // config/environment.js
   var ENV = {
     modulePrefix: 'verge-ember',
     environment: environment,
@@ -11,6 +12,15 @@ module.exports = function(environment) {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
       },
+
+      firebase: {
+        apiKey: 'AIzaSyDN7OP9tW0H5oWa4whKpTZeVBeiVX0tTX4',
+        authDomain: 'vergepdx-ember.firebaseapp.com',
+        databaseURL: 'https://vergepdx-ember.firebaseio.com',
+        storageBucket: 'vergepdx-ember.appspot.com',
+        messagingSenderId: "812504370103"
+      },
+
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
         Date: false

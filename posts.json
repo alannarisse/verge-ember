@@ -1,0 +1,11 @@
+{ "persons": [{
+    "title": "Artist we love",
+    "body": "We wanted to gather up a list of artists we love."
+  }, {
+    "title": "Galleries we love",
+    "body": "We wanted to gather up a list of galleries we love."
+  }, {
+    "title": "Museums we love",
+    "body": "We wanted to gather up a list of museums we love."
+  }]
+}

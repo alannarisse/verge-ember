@@ -1,0 +1,17 @@
+{ "persons": [{
+    "firstName": "Alanna",
+    "lastName": "Risse",
+    "type": "Artist",
+    "url": "http://alannarisse.com"
+  }, {
+    "firstName": "Veronica",
+    "lastName": "Reeves",
+    "type": "Artist",
+    "url": "http://v2r2please.com"
+  }, {
+    "firstName": "Jason",
+    "lastName": "Berlin",
+    "type": "Artist",
+    "url": "http://jasonberlinthomas.com"
+  }]
+}

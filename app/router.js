@@ -35,6 +35,7 @@ Router.map(function() {
     this.route('mcgovern');
   });
   this.route('news');
+  this.route('posts');
 });
 
 export default Router;
