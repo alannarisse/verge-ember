@@ -109,7 +109,7 @@ let artistList = [{
   image: 'assets/images/thumbs/mcgovern220sq.jpg',
   title: 'Kelly McGovern',
   page: 'artist.mcgovern',
-  link: 'http://www.acmlorish.com/',
+  link: 'http://kelly-mcgovern.com',
   about: 'Kelly McGovern is a multimedia artist. Her work explores motion and language in hopes of finding comfort in escape. She has shown nationally in several major cities including New York, Philadelphia, Washington DC, Salt Lake City, and Portland Oregon, as well as internationally in Hereford, UK. She received her BFA from Moore College of Art and Design in Philadelphia, Pennsylvania and received her MFA from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 }
 ];

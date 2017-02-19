@@ -483,6 +483,15 @@ define('verge-ember/tests/integration/components/venue-list-test.jshint.lint-tes
     assert.ok(true, 'integration/components/venue-list-test.js should pass jshint.');
   });
 });
+define('verge-ember/tests/models/person.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | models/person.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'models/person.js should pass jshint.\nmodels/person.js: line 9, col 13, \'Ember\' is not defined.\n\n1 error');
+  });
+});
 define('verge-ember/tests/resolver.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -729,6 +738,28 @@ define('verge-ember/tests/unit/helpers/venue-title-test.jshint.lint-test', ['exp
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/helpers/venue-title-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/models/person-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleForModel)('person', 'Unit | Model | person', {
+    // Specify the other units that are required for this test.
+    needs: []
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var model = this.subject();
+    // let store = this.store();
+    assert.ok(!!model);
+  });
+});
+define('verge-ember/tests/unit/models/person-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/models/person-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/models/person-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/about-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {

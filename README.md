@@ -1,7 +1,7 @@
 # verge-ember
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the Ember version of vergepdx.com. It uses Ember-bootstrap, and ember-cli-lightbox.
 
 ## Prerequisites
 
@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 * [Bower](https://bower.io/)
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Ember-Bootsrap]()
 
 ## Installation
 
