@@ -33,6 +33,7 @@ Router.map(function() {
     this.route('morin');
     this.route('miyamoto');
     this.route('mcgovern');
+    this.route('quiroz');
   });
   this.route('news');
   this.route('posts');

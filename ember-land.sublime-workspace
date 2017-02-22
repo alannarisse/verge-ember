@@ -1,0 +1,450 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"bac",
+				"backface-visibility"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 301.0,
+		"last_filter": "inden",
+		"selected_items":
+		[
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alanna/Sites/ember_essentials/verge-ember",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/adapters",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/config"
+	],
+	"file_history":
+	[
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/app.scss",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/verge.scss",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/index.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/app.css",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/mulder.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/news.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/config/environment.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/posts.json",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/index.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models/post.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/posts.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/router.js",
+		"/Users/alanna/Sites/ember_essentials/my_ember_notes.txt",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models/person.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/adapters/application.js",
+		"/Users/alanna/Sites/ember_essentials/firebase_notes.txt",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/posts.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/artists.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/README.md",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/about.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/index.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/navigation-list.hbs",
+		"/Users/alanna/Sites/wordpress/wp-content/themes/hob/style.css",
+		"/Users/alanna/Documents/Work/clients/singlebound/hob/wordpress/wp-content/themes/hob/index.php",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/artist/berlin.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/berlin.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/ember-cli-build.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/void.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/footer-nav.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/application.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/berlin-gallery.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/kruse.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-gallery.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/page-not-found.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-list.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/app.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/page-not-found.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/schlunegger.hbs",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/style.css",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/single.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/bootstrap/css/bootstrap.css",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/home.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/sidebar.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/functions.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/header.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/front-page.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/index.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/footer.php",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/my_notes.txt",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artists.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/venue-list.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/contacts.hbs",
+		"/Users/alanna/Sites/dev.alannarisse.com/wp-content/themes/wpbootsrap/index.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/mcgovern.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/miyamoto.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/morin.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/nelson.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/reed.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/reeves.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/risse.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/simione.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/lorish.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/js/library.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/kruse.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/magnific-popup.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/components/magnific-popup.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/bower.json",
+		"/Volumes/myrtle/Jason Feb 2107/jason_about_content",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/dist/index.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/miyamoto.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/mulder.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/nelson.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reed.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/morin.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reeves.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/risse.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/schlunegger.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/lorish.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/mcgovern.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/void.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/simione.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/berlin.hbs",
+		"/Users/alanna/Sites/CodeSchool/BootstrapPortfolioProject/src/index.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/venues.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/venues.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/.gitignore",
+		"/Users/alanna/Desktop/Vitamin T_frontenddeveloper.txt",
+		"/Users/alanna/Documents/Work/Resumes/resume_from_aquent_site.txt",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/helpers/venue-title.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-page-nav.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/package.json",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/components/artist-list.js",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/com.bootstrap/bootstrap-inter/index.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/about.js",
+		"/Users/alanna/Sites/ember_essentials/bookmarker/app/routes/about.js",
+		"/Users/alanna/Documents/Geek/rsync.txt",
+		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/about.hbs",
+		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/components/bookmark-listing.hbs",
+		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/application.hbs",
+		"/Users/alanna/Sites/geek/terminal_cheet_sheets/terminal windows",
+		"/Users/alanna/Sites/geek/terminal_cheet_sheets/rsync -vanc angrypirate@alannarisse.com::home:angr",
+		"/Users/alanna/Sites/vergepdx-react/src/Features.js",
+		"/Users/alanna/Sites/vergepdx-react/src/index.js",
+		"/Users/alanna/Sites/vergepdx-react/node_modules/react-bootstrap/lib/Collapse.js",
+		"/Users/alanna/Sites/vergepdx-react/src/Modlandia.js",
+		"/Users/alanna/Sites/vergepdx-react/src/App.js",
+		"/Users/alanna/Sites/ember_essentials/bookmarker/package.json",
+		"/Users/alanna/Downloads/p7zip_16.02/README",
+		"/Users/alanna/Sites/vergepdx-react/src/About.js",
+		"/Users/alanna/Sites/vergepdx-react/src/Footer.js",
+		"/Users/alanna/Desktop/React-tests/modal_test.js",
+		"/Users/alanna/Sites/vergepdx-react/src/Venues.js",
+		"/Users/alanna/Sites/vergepdx-react/src/HeaderNavigation.js",
+		"/Users/alanna/Sites/vergepdx-react/src/styles/App.css",
+		"/Users/alanna/Sites/vergepdx-react/.gitignore",
+		"/Users/alanna/Sites/vergepdx-react/create-notes.txt",
+		"/Users/alanna/Sites/vergepdx-react/src/Modal.js",
+		"/Users/alanna/Sites/create-react-app/src/App.css",
+		"/Users/alanna/Sites/vergepdx-react/src/App.css",
+		"/Users/alanna/Sites/vergepdx-react/public/index.html",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/package.json",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/src/styles/custom-styles.css",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/index.html",
+		"/Users/alanna/Sites/vergepdx-react/package.json",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/src/LearnMore.js",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/src/InlineLogin.js",
+		"/Users/alanna/Sites/react-bootstrap-getting-started/src/HeaderNavigation.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"<current file>",
+			"/Users/alanna/Sites/ember_essentials/verge-ember/app",
+			"/Users/alanna/Sites/com.data-vision",
+			"",
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"assets/images/",
+			"Portlasnd",
+			"Last Night Out",
+			"berlin-group",
+			"/assets/images/berlin/",
+			"/assets/images/schlunegger/",
+			"schlun-group",
+			"#0088cc",
+			"mv ",
+			"Adding Images and Fonts",
+			"well",
+			"Deployment",
+			"ciali",
+			"cialis",
+			"-->",
+			"mission",
+			"flui",
+			"alanna",
+			"artist",
+			"artists",
+			"artistsprojects",
+			"artist_name",
+			"uppercase",
+			"navbar",
+			"#00d6f7",
+			"Vc_Manager",
+			"Vc_manager",
+			"vc_manager",
+			"./Alanna&#39;s Art News - Fall 2014_files",
+			"><",
+			"images/",
+			"71a412",
+			"dbc064",
+			"dbc064\t",
+			"$('.product__tabs')",
+			"slide",
+			"slick",
+			"product__tabs",
+			"review",
+			"Expert",
+			"reviews",
+			"Expert Reviews",
+			"reviews",
+			"review",
+			"reviews",
+			"testfreaks",
+			"tf-rating",
+			"testfreak",
+			"te",
+			"testfreak",
+			"data-hyphen-toggle",
+			"@media",
+			"medium",
+			"small",
+			"id=",
+			"artist",
+			"artists",
+			"collection",
+			"Artist",
+			"collectio",
+			"a:hover",
+			".btn",
+			"entry-title"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"assets/images/thumbs/",
+			"Specimens",
+			"void-group",
+			"/assets/images/void/specimens",
+			"/assets/images/mulder/",
+			"mulder-group",
+			"#990000",
+			"*/",
+			"project_name",
+			"#990000",
+			"Vco_Manager",
+			"images",
+			"http://alannarisse.com/code_samples/verge_email_oct2016/images/",
+			"8d1c18",
+			"666666",
+			"333333",
+			"data-toggle",
+			"large",
+			"medium"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ember-land.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

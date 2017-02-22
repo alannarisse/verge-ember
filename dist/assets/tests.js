@@ -769,6 +769,15 @@ define('verge-ember/tests/routes/artist/nelson.jshint.lint-test', ['exports'], f
     assert.ok(true, 'routes/artist/nelson.js should pass jshint.');
   });
 });
+define('verge-ember/tests/routes/artist/quiroz.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | routes/artist/quiroz.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'routes/artist/quiroz.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/routes/artist/reed.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -1158,6 +1167,27 @@ define('verge-ember/tests/unit/routes/artist/nelson-test.jshint.lint-test', ['ex
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/artist/nelson-test.js should pass jshint.');
+  });
+});
+define('verge-ember/tests/unit/routes/artist/quiroz-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleFor)('route:artist/quiroz', 'Unit | Route | artist/quiroz', {
+    // Specify the other units that are required for this test.
+    // needs: ['controller:foo']
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var route = this.subject();
+    assert.ok(route);
+  });
+});
+define('verge-ember/tests/unit/routes/artist/quiroz-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/routes/artist/quiroz-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/routes/artist/quiroz-test.js should pass jshint.');
   });
 });
 define('verge-ember/tests/unit/routes/artist/reed-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
