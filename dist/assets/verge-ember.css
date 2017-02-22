@@ -5815,7 +5815,6 @@ button.close {
     display: none !important; } }
 
 /* generated from app.scss */
-/* FONT IMPORT */
 @font-face {
   font-family: 'acremedium';
   src: url("/assets/fonts/acre-medium-webfont.eot");
@@ -5823,8 +5822,7 @@ button.close {
   font-weight: normal;
   font-style: normal; }
 
-/* Global Styles */
-a, a:active, h3 a, article a, p a, div a {
+a, a:active, h3 a, article a, p a, div a, a:hover i {
   color: #990000; }
 
 a:hover, div a:hover {
@@ -5834,10 +5832,12 @@ a:hover, div a:hover {
 a i {
   color: #666; }
 
-a:hover i {
-  color: #990000; }
+.navbar-default .navbar-nav .active a {
+  color: #990000 !important; }
 
-/* Header and Footer */
+.navbar-default .navbar-nav a:hover {
+  color: #600000 !important; }
+
 header {
   height: 128px;
   margin-left: 20px; }
@@ -5856,11 +5856,6 @@ header h1 {
   padding-left: 132px;
   color: #666; }
 
-/* Not Working!!! 
-header h1 .logo {
-    background: url ('/assets/images/verge_circles.png');
-    background-repeat: no-repeat;
-} */
 h1 a, h1 a:active, h1 a:hover, h1 a:focus {
   text-decoration: none;
   color: #990000; }
@@ -5883,10 +5878,9 @@ footer .left {
 footer i {
   padding-right: 10px; }
 
-footer p, footer p a {
+footer p {
   font-color: #999; }
 
-/* Adds space above footer */
 .container {
   padding-bottom: 120px; }
 
@@ -5903,24 +5897,13 @@ footer p, footer p a {
   .mobile-footer {
     display: inline; } }
 
-/* /Header and Footer */
-/* Bootstrap NAVBAR */
-.navbar-default .navbar-nav > li > a:hover {
-  color: #990000; }
-
-/* /Bootstrap NAVBAR */
-/* Home Page */
 .featured-artists article {
   padding-bottom: 30px;
   overflow: auto; }
 
-/* /Home Page */
-/* News Page */
 .news .row img {
   width: 95%; }
 
-/* /News Page */
-/* Artist Main Page */
 .artist-thumbs h3 {
   font-size: 18px; }
 
@@ -5937,14 +5920,11 @@ div.artist-page img {
   height: auto;
   max-width: 1024px; }
 
-/* /Artist Main Page */
-/* Exhibitions */
 .exhibitions .crop {
   width: 348px;
   height: 140px;
   overflow: hidden; }
 
-/* Magnific */
 .white-popup {
   position: relative;
   background: #FFF;
@@ -5953,18 +5933,13 @@ div.artist-page img {
   max-width: 500px;
   margin: 20px auto; }
 
-/* /Magnific */
-/* Venue page */
 .venues img {
   border: 1px solid #e7e7e7; }
 
-/* /Venue page */
-/* About Page */
 .about-social {
   text-align: center;
   padding-top: 50px; }
 
-/* Media Queries */
 @media (min-width: 1200px) {
   .auto-clear .col-lg-1:nth-child(12n+1) {
     clear: left; }

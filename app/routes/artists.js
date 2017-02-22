@@ -111,6 +111,14 @@ let artistList = [{
   page: 'artist.mcgovern',
   link: 'http://kelly-mcgovern.com',
   about: 'Kelly McGovern is a multimedia artist. Her work explores motion and language in hopes of finding comfort in escape. She has shown nationally in several major cities including New York, Philadelphia, Washington DC, Salt Lake City, and Portland Oregon, as well as internationally in Hereford, UK. She received her BFA from Moore College of Art and Design in Philadelphia, Pennsylvania and received her MFA from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
+},
+{
+  id: 15,
+  image: 'assets/images/thumbs/quiroz220sq.png',
+  title: 'Amanda Quiroz',
+  page: 'artist.quiroz',
+  link: 'http://amandaquiroz.com',
+  about: 'Amanda Quiroz draws from her personal entomological collection to explore themes of mortality and humility within Catholicism. Her intricate drawings of insects and the very dust from the air seek to illuminate the invisible.'
 }
 ];
 

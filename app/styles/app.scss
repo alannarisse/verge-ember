@@ -2,7 +2,7 @@
 @import "ember-bootstrap/bootstrap";
 
 /* generated from app.scss */
-/* FONT IMPORT */
+// FONT IMPORT
 
 @font-face {
     font-family: 'acremedium';
@@ -17,24 +17,42 @@
 
 }
 
-/* Global Styles */
+// Global Styles
 
-a, a:active, h3 a, article a, p a, div a {
-  color:#990000;
+$brand_color_1: #990000;
+$brand_color_2: #600000;
+
+a, a:active, h3 a, article a, p a, div a, a:hover i {
+  color:$brand_color_1;
 }
+
 a:hover, div a:hover {
-  color:#600000; text-decoration:none;
+  color:$brand_color_2; 
+  text-decoration:none;
 }
 
-a i {color:#666;}
-a:hover i {color:#990000;}
+a i {
+  color:#666;
+}
 
 
+// Bootstrap NAVBAR
+.navbar-default .navbar-nav .active a {
+  color:$brand_color_1 !important;
+}
+.navbar-default .navbar-nav a:hover {
+  color:$brand_color_2 !important;
+}
 
-/* Header and Footer */
+// /Bootstrap NAVBAR 
 
-header {height:128px;
-  margin-left:20px;}
+
+// Header and Footer
+
+header {
+  height:128px;
+  margin-left:20px;
+}
 header h1, .container h2, .container h3 {
   font-family: 'acremedium';
 }
@@ -51,15 +69,15 @@ header h1 {
 
 }
 
-/* Not Working!!! 
-header h1 .logo {
-    background: url ('/assets/images/verge_circles.png');
-    background-repeat: no-repeat;
-} */
+// Not Working!!! 
+// header h1 .logo {
+//    background: url ('/assets/images/verge_circles.png');
+//    background-repeat: no-repeat;
+// }
 
 h1 a, h1 a:active, h1 a:hover, h1 a:focus  {
   text-decoration:none;
-  color:#990000;
+  color:$brand_color_1;
 }
 
 header {
@@ -76,15 +94,22 @@ footer {
   text-align:right;
 }
 
-footer .left {text-align:left;}
-footer i {padding-right:10px;}
-footer p, footer p a {  
-  font-color:#999;
+footer {
+  .left {text-align:left;}
+  i {padding-right:10px;}
+  p {  
+    font-color:#999;
+  }
 }
 
-/* Adds space above footer */
-.container {padding-bottom:120px;}
-.mobile-footer {display:none;}
+
+// Adds space above footer
+.container {
+  padding-bottom:120px;
+}
+.mobile-footer {
+  display:none;
+}
 
 @media (max-width: 768px){
   .container {padding-bottom:80px;}
@@ -93,60 +118,57 @@ footer p, footer p a {
   .mobile-footer {display:inline;}
 }
 
-/* /Header and Footer */
+// /Header and Footer
 
 
-/* Bootstrap NAVBAR */
 
-.navbar-default .navbar-nav > li > a:hover {color:#990000;}
+// Home Page 
 
-/* /Bootstrap NAVBAR */
+.featured-artists article {
+  padding-bottom:30px;overflow:auto;
+}
 
-/* Home Page */
-.featured-artists article {padding-bottom:30px;overflow:auto;}
-
-/* /Home Page */
+// /Home Page 
 
 
-/* News Page */
+// News Page 
 .news .row img {width:95%;}
 
-/* /News Page */
+// /News Page 
 
 
-/* Artist Main Page */
+// Artist Main Page
 
-.artist-thumbs h3 {
-  font-size:18px;
+.artist-thumbs {
+   h3 {
+    font-size:18px;
+  }
+  img {
+    padding:40px 0 0 0;
+  }
+  p {
+    height:auto;
+    display:block;
+    position:relative;
+  }
 }
 
-
-.artist-thumbs img {
-  padding:40px 0 0 0;
-}
-
-.artist-thumbs p {
-  height:auto;
-  display:block;
-  position:relative;
-}
 
 div.artist-page img {
   width:100%;
   height:auto;
   max-width:1024px;
 }
-/* /Artist Main Page */
+// /Artist Main Page 
 
-/* Exhibitions */
+// Exhibitions 
 .exhibitions .crop {
   width:348px;
   height: 140px;
   overflow: hidden;
 }
-.exhibitions .crop img {}
 
-/* Magnific */
+// Magnific 
 .white-popup {
     position: relative;
     background: #FFF;
@@ -155,23 +177,25 @@ div.artist-page img {
     max-width: 500px;
     margin: 20px auto;
 }
-/* /Magnific */
+// /Magnific 
 
 
-/* Venue page */
+// Venue page 
 .venues img {
   border:1px solid #e7e7e7;
 }
-/* /Venue page */
+// /Venue page
 
-/* About Page */
+
+
+// About Page
 
 .about-social {
   text-align:center;
   padding-top:50px;
 }
 
-/* Media Queries */
+// Media Queries
 @media (min-width:1200px){
     .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
     .auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
