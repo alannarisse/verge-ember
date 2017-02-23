@@ -114,7 +114,7 @@ let artistList = [{
 },
 {
   id: 15,
-  image: 'assets/images/thumbs/quiroz220sq.png',
+  image: 'assets/images/thumbs/quiroz220sq.jpg',
   title: 'Amanda Quiroz',
   page: 'artist.quiroz',
   link: 'http://amandaquiroz.com',
