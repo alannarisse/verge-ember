@@ -81,6 +81,15 @@ define('verge-ember/tests/components/venue-list.jshint.lint-test', ['exports'], 
     assert.ok(true, 'components/venue-list.js should pass jshint.');
   });
 });
+define('verge-ember/tests/controllers/navigation-list.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | controllers/navigation-list.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'controllers/navigation-list.js should pass jshint.');
+  });
+});
 define('verge-ember/tests/helpers/create-offline-ref', ['exports', 'firebase'], function (exports, _firebase) {
   exports['default'] = createOfflineRef;
 
