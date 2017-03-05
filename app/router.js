@@ -10,7 +10,9 @@ Router.map(function() {
   this.route('about');
   this.route('venues');
   this.route('artists');
-  this.route('exhibitions');
+  this.route('exhibitions', function() {
+    this.route('previous');
+  });
   this.route('contacts');
 
   this.route('page-not-found', {
@@ -37,6 +39,7 @@ Router.map(function() {
   });
   this.route('news');
   this.route('posts');
+  this.route('stall-tokyo');
 });
 
 export default Router;
