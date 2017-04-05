@@ -35,6 +35,90 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/templates/index.hbs",
+			"settings":
+			{
+				"buffer_size": 2264,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 1983,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/router.js",
+			"settings":
+			{
+				"buffer_size": 1080,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environment.js",
+			"settings":
+			{
+				"buffer_size": 1567,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nGitGutter\n---------\n\n  1.5.1\n  -----\n  \n    Fix:\n     - Files are randomly marked as modified (Issue #381)\n     - Print error message and abort evaluation on failed git call.\n     - Improve error handling on temporary file creation (Issue #384)\n  \n    Enhancement:\n     - Hide 'Compare against ... ' current branch in status message.\n  \n    Docs:\n     - Add Boxy Theme to the list of supported\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n",
+			"settings":
+			{
+				"buffer_size": 1161,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "<script>\n  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){\n  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),\n  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)\n  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');\n\n  ga('create', 'UA-93709908-1', 'auto');\n  ga('send', 'pageview');\n\n</script>",
+			"settings":
+			{
+				"buffer_size": 414,
+				"line_ending": "Unix",
+				"name": "<script>"
+			}
+		},
+		{
+			"file": "app/routes/artist/risse.js",
+			"settings":
+			{
+				"buffer_size": 1249,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<div class=\"artist-page\">\n\t<h2>Alanna Risse</h2>\n\t<p>{{#link-to 'venues'}}Flickerbox, Inc., PDX{{/link-to}}<br>\n\tMay, 2016</p>\n\n\n\n{{!-- Don't know how to get array items into the lightbox hb tag. looking into it.\n\n{{#each model as |risseGallery|}}\n<article id={{risseGallery.id}}>\n{{risseGallery.title}} - {{risseGallery.dinensions}}\n</article>\n{{/each}}\n<br>\n\n\n<div class=\"artist-thumbs\">\n\t    <div class=\"row auto-clear\">\n\t    {{#each model as |risseGallery|}}\n\t      \t<article class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\" id={{risseGallery.id}}>\n\t\t\t\t{{light-box href=\"#\" data-lightbox=\"risse-group\" data-title=\"{{risseGallery.title}} | 10x10 | oil on canvas | 2016\"}}\n\t      \t</article>\n\t     {{/each}}\n\t    </div>\n\t</div>\n--}}\n\n\n\t<div class=\"artist-thumbs\">\n\t    <div class=\"row auto-clear\">\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/dif.jpg\" data-lightbox=\"risse-group\" data-title=\"Taste the Dif | 10x10 | oil on canvas | 2016\"}}\n\t      \t</div>\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/odalisque.jpg\" data-lightbox=\"risse-group\" data-title=\"Odalisque | 16x16 | Oil on Canvas | 2016\"}}\n\t      \t</div>\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/freckles.jpg\" data-lightbox=\"risse-group\" data-title=\"Freckles | 10x10 | Oil on Canvas | 2016\"}}\n\t      \t</div>\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/pie.jpg\" data-lightbox=\"risse-group\" data-title=\"Pie | 20x10 | Pastel on Paper | 2016\"}}\n\t      \t</div>\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/spritzer.jpg\" data-lightbox=\"risse-group\" data-title=\"Spritzer | 20x10 | Pastel on Paper | 2016\"}}\n\t      \t</div>\n\t      \t<div class=\"col-xs-12 col-sm-4 col-md-3 col-lg-3\">\n\t\t\t\t{{light-box href=\"/assets/images/risse/peelup.jpg\" data-lightbox=\"risse-group\" data-title=\"Don't Peel Up On Me\"}}\n\t      \t</div>\n\t    </div>\n\t</div>\n\n\n\n\t<h3>Art Manifesto</h3>\n\t<p>Let art be an experience. Free it from its frame, it’s pedestal. Shatter the glass that seals it off from the world. Let it absorb finger grease, get dropped, dinged, damaged. Give it life, let it into our lives. Put it in unexpected places. Share it, don’t squander it. Art doesn’t need anyone’s protection. Set it free.</p>\n\n\n\t<p>Website: <a href=\"http://alannarisse.com\">AlannaRisse.com</a><br>\n\tInstagram: <a href=\"https://www.instagram.com/alannarisse/\">@alannarisse</a></p>\n</div>\n\n{{artist-page-nav}}\n\n\n{{outlet}}\n",
+			"file": "app/templates/artist/risse.hbs",
+			"file_size": 2633,
+			"file_write_time": 131333034220000000,
+			"settings":
+			{
+				"buffer_size": 2626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/components/artist-list.hbs",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -102,22 +186,35 @@
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/adapters",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/config"
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/config",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images/news"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Desktop/alan peters.txt",
+		"/Users/alanna/Pictures/feel-do/pics/save/archive/vibe/index.html",
+		"/Users/alanna/Pictures/feel-do/pics/save/archive/vibe/fun.html",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-gallery.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions/previous.hbs",
+		"/Users/alanna/Sites/ember_essentials/homepage_backups.txt",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/berlin.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/stall-tokyo.hbs",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/news.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/index.html",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/app.scss",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/verge.scss",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/index.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles/app.css",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/mulder.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/news.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/config/environment.js",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/posts.json",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/index.js",
@@ -136,14 +233,12 @@
 		"/Users/alanna/Sites/wordpress/wp-content/themes/hob/style.css",
 		"/Users/alanna/Documents/Work/clients/singlebound/hob/wordpress/wp-content/themes/hob/index.php",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/artist/berlin.js",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/berlin.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/ember-cli-build.js",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/void.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/footer-nav.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/application.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/berlin-gallery.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist/kruse.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-gallery.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/page-not-found.js",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-list.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/app.js",
@@ -203,7 +298,6 @@
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-page-nav.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/package.json",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/components/artist-list.js",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions.hbs",
 		"/Users/alanna/Sites/com.bootstrap/bootstrap-inter/index.html",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/about.js",
 		"/Users/alanna/Sites/ember_essentials/bookmarker/app/routes/about.js",
@@ -232,13 +326,7 @@
 		"/Users/alanna/Sites/create-react-app/src/App.css",
 		"/Users/alanna/Sites/vergepdx-react/src/App.css",
 		"/Users/alanna/Sites/vergepdx-react/public/index.html",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/package.json",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/src/styles/custom-styles.css",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/index.html",
-		"/Users/alanna/Sites/vergepdx-react/package.json",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/src/LearnMore.js",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/src/InlineLogin.js",
-		"/Users/alanna/Sites/react-bootstrap-getting-started/src/HeaderNavigation.js"
+		"/Users/alanna/Sites/react-bootstrap-getting-started/package.json"
 	],
 	"find":
 	{
@@ -361,8 +449,280 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/templates/index.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1964,
+								1964
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								161
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/environment.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1535,
+								1535
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1161,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1161,
+								1161
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								353
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<script>",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/routes/artist/risse.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/templates/artist/risse.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								213,
+								213
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/templates/components/artist-list.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								70
+							]
+						],
+						"settings":
+						{
+							"git_gutter_enabled": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
 			]
 		}
 	],

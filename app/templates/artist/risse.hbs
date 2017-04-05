@@ -3,7 +3,28 @@
 	<p>{{#link-to 'venues'}}Flickerbox, Inc., PDX{{/link-to}}<br>
 	May, 2016</p>
 
-	<!-- <img src="/assets/images/risse/fifthwheel1024.jpg"> -->
+
+
+{{!-- Don't know how to get array items into the lightbox hb tag. looking into it.
+{{#each model as |risseGallery|}}
+<article id={{risseGallery.id}}>
+{{risseGallery.title}} - {{risseGallery.dinensions}}
+</article>
+{{/each}}
+<br>
+
+
+<div class="artist-thumbs">
+	    <div class="row auto-clear">
+	    {{#each model as |risseGallery|}}
+	      	<article class="col-xs-12 col-sm-4 col-md-3 col-lg-3" id={{risseGallery.id}}>
+				{{light-box href="#" data-lightbox="risse-group" data-title="{{risseGallery.title}} | 10x10 | oil on canvas | 2016"}}
+	      	</article>
+	     {{/each}}
+	    </div>
+	</div>
+--}}
+
 
 	<div class="artist-thumbs">
 	    <div class="row auto-clear">
