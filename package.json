@@ -28,6 +28,7 @@
     "ember-cli-htmlbars-inline-precompile": "^0.3.3",
     "ember-cli-inject-live-reload": "^1.4.1",
     "ember-cli-jshint": "^2.0.1",
+    "ember-cli-lightbox": "1.0.2",
     "ember-cli-qunit": "^3.0.1",
     "ember-cli-release": "^0.2.9",
     "ember-cli-sass": "6.1.1",
@@ -53,7 +54,6 @@
     "ember-cli-lightbox": "^1.0.2",
     "ember-cli-sass": "^6.1.1",
     "justified-gallery": "^0.1.0",
-    "lightbox2": "^2.9.0",
     "magnific-popup": "^1.1.0"
   }
 }
