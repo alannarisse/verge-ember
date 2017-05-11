@@ -97,20 +97,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alanna/Sites/ember_essentials",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/adapters",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/config",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images/news"
+		"/Users/alanna/Sites/com.vergepdx"
 	],
 	"file_history":
 	[
@@ -405,7 +392,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "ember-land.sublime-project",
+	"project": "com.vergepdx.sublime-project",
 	"replace":
 	{
 		"height": 50.0
