@@ -38,6 +38,7 @@ Router.map(function() {
     this.route('miyamoto');
     this.route('mcgovern');
     this.route('quiroz');
+    this.route('schneider');
   });
   this.route('news');
   this.route('posts');

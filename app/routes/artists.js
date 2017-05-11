@@ -120,8 +120,15 @@ let artistList = [{
   page: 'artist.mcgovern',
   link: 'http://kelly-mcgovern.com',
   about: 'Kelly McGovern is a multimedia artist. Her work explores motion and language in hopes of finding comfort in escape. She has shown nationally in several major cities including New York, Philadelphia, Washington DC, Salt Lake City, and Portland Oregon, as well as internationally in Hereford, UK. She received her BFA from Moore College of Art and Design in Philadelphia, Pennsylvania and received her MFA from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
-}
-];
+},
+{
+  id: 16,
+  image: 'assets/images/thumbs/schneider220sq.jpg',
+  title: 'Harry Schneider',
+  page: 'artist.schneider',
+  link: 'http://harryschneider.blogspot.com/',
+  about: 'Harry Schneider is a print media artist. His work investigates everyday experience and elevates seemingly mundane moments. He reived his MFA in Print Media from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
+}];
 
 
 export default Ember.Route.extend({
