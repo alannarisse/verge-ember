@@ -39,6 +39,7 @@ Router.map(function() {
     this.route('mcgovern');
     this.route('quiroz');
     this.route('schneider');
+    this.route('vanover');
   });
   this.route('news');
   this.route('posts');
