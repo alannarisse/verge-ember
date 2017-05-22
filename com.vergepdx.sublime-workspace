@@ -97,10 +97,28 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alanna/Sites/com.vergepdx"
+		"/Users/alanna/Sites/com.vergepdx",
+		"/Users/alanna/Sites/com.vergepdx/app",
+		"/Users/alanna/Sites/com.vergepdx/app/components",
+		"/Users/alanna/Sites/com.vergepdx/app/controllers",
+		"/Users/alanna/Sites/com.vergepdx/app/helpers",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artist",
+		"/Users/alanna/Sites/com.vergepdx/app/templates",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/components"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Sites/com.vergepdx/app/templates/venues.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/about.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/venues.js",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/components/venue-list.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/schneider.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
+		"/Users/alanna/Sites/natureofcode/The-Nature-of-Code-Examples-master/README.md",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-list.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/artist/risse.js",
@@ -218,17 +236,7 @@
 		"/Users/alanna/Sites/geek/terminal_cheet_sheets/rsync -vanc angrypirate@alannarisse.com::home:angr",
 		"/Users/alanna/Sites/vergepdx-react/src/Features.js",
 		"/Users/alanna/Sites/vergepdx-react/src/index.js",
-		"/Users/alanna/Sites/vergepdx-react/node_modules/react-bootstrap/lib/Collapse.js",
-		"/Users/alanna/Sites/vergepdx-react/src/Modlandia.js",
-		"/Users/alanna/Sites/vergepdx-react/src/App.js",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/package.json",
-		"/Users/alanna/Downloads/p7zip_16.02/README",
-		"/Users/alanna/Sites/vergepdx-react/src/About.js",
-		"/Users/alanna/Sites/vergepdx-react/src/Footer.js",
-		"/Users/alanna/Desktop/React-tests/modal_test.js",
-		"/Users/alanna/Sites/vergepdx-react/src/Venues.js",
-		"/Users/alanna/Sites/vergepdx-react/src/HeaderNavigation.js",
-		"/Users/alanna/Sites/vergepdx-react/src/styles/App.css"
+		"/Users/alanna/Sites/vergepdx-react/node_modules/react-bootstrap/lib/Collapse.js"
 	],
 	"find":
 	{
@@ -252,6 +260,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"schneider",
 			"assets/images/",
 			"Portlasnd",
 			"Last Night Out",
@@ -322,6 +331,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"vanover",
 			"assets/images/thumbs/",
 			"Specimens",
 			"void-group",

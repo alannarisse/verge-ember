@@ -35,6 +35,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/alanna/Sites/ember_essentials/my_ember_notes.txt",
+			"settings":
+			{
+				"buffer_size": 1593,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -97,20 +105,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alanna/Sites/ember_essentials",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/adapters",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/models",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/styles",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/artist",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/exhibitions",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/config",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets/images/news"
+		"/Users/alanna/Sites/ember_essentials"
 	],
 	"file_history":
 	[
@@ -364,8 +359,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/alanna/Sites/ember_essentials/my_ember_notes.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1593,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

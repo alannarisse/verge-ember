@@ -40,6 +40,9 @@ Router.map(function() {
     this.route('quiroz');
     this.route('schneider');
     this.route('vanover');
+    this.route('oldham');
+    this.route('cranmore');
+    this.route('beaver');
   });
   this.route('news');
   this.route('posts');
