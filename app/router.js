@@ -43,6 +43,7 @@ Router.map(function() {
     this.route('oldham');
     this.route('cranmore');
     this.route('beaver');
+    this.route('kress');
   });
   this.route('news');
   this.route('posts');
