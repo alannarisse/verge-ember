@@ -122,7 +122,7 @@ let artistList = [{
 },
 {
   id: 16,
-  image: 'assets/images/thumbs/risse220sq.jpg',
+  image: 'assets/images/thumbs/rissewiwd220sq.jpg',
   title: 'Alanna Risse',
   page: 'artist.risse',
   link: 'http://alannarisse.com',
