@@ -18,7 +18,7 @@
 }
 
 // Global Styles
-
+$brand_font: acremedium, sansserif;
 $brand_color_1: #990000;
 $brand_color_2: #600000;
 
@@ -27,7 +27,7 @@ a, a:active, h3 a, article a, p a, div a, a:hover i {
 }
 
 a:hover, div a:hover {
-  color:$brand_color_2; 
+  color:$brand_color_2;
   text-decoration:none;
 }
 
@@ -35,6 +35,17 @@ a i {
   color:#666;
 }
 
+a.btn, a.btn-primary {
+  background-color: $brand_color_1;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 30px;
+  font-family: $brand_font;
+  -webkit-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
+}
+a:hover.btn, a:hover.btn-primary {background-color: $brand_color_2;}
 
 // Bootstrap NAVBAR
 .navbar-default .navbar-nav .active a {
@@ -44,7 +55,7 @@ a i {
   color:$brand_color_2 !important;
 }
 
-// /Bootstrap NAVBAR 
+// /Bootstrap NAVBAR
 
 
 // Header and Footer
@@ -69,7 +80,7 @@ header h1 {
 
 }
 
-// Not Working!!! 
+// Not Working!!!
 // header h1 .logo {
 //    background: url ('/assets/images/verge_circles.png');
 //    background-repeat: no-repeat;
@@ -97,7 +108,7 @@ footer {
 footer {
   .left {text-align:left;}
   i {padding-right:10px;}
-  p {  
+  p {
     font-color:#999;
   }
 }
@@ -122,19 +133,29 @@ footer {
 
 
 
-// Home Page 
+// Home Page
 
 .featured-artists article {
   padding-bottom:30px;overflow:auto;
 }
+.intro {
+  padding:40px 0;
+  margin: 0 auto;
+  width:60%;
+  h2 {line-height:1.6em;}
+  @media (max-width: 768px){
+    width:90%;
+  }
+  .btn { margin-top: 30px; }
+}
 
-// /Home Page 
+// /Home Page
 
 
-// News Page 
+// News Page
 .news .row img {width:95%;}
 
-// /News Page 
+// /News Page
 
 
 // Artist Main Page
@@ -159,16 +180,16 @@ div.artist-page img {
   height:auto;
   max-width:1024px;
 }
-// /Artist Main Page 
+// /Artist Main Page
 
-// Exhibitions 
+// Exhibitions
 .exhibitions .crop {
   width:348px;
   height: 140px;
   overflow: hidden;
 }
 
-// Magnific 
+// Magnific
 .white-popup {
     position: relative;
     background: #FFF;
@@ -177,10 +198,10 @@ div.artist-page img {
     max-width: 500px;
     margin: 20px auto;
 }
-// /Magnific 
+// /Magnific
 
 
-// Venue page 
+// Venue page
 .venues img {
   border:1px solid #e7e7e7;
 }

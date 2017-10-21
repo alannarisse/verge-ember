@@ -42,6 +42,15 @@
 				"buffer_size": 1593,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"contents": "<",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix",
+				"name": "<"
+			}
 		}
 	],
 	"build_system": "",
@@ -240,7 +249,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -375,12 +384,13 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								618,
+								645
 							]
 						],
 						"settings":
 						{
+							"git_gutter_is_enabled": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -389,13 +399,42 @@
 					},
 					"stack_index": 0,
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -432,7 +471,7 @@
 	"project": "ember-land.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":

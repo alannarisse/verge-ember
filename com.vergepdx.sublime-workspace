@@ -36,37 +36,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/artist/reeves.hbs",
+			"file": "app/templates/artist/schneider.hbs",
 			"settings":
 			{
-				"buffer_size": 5724,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/artist/oldham.hbs",
-			"settings":
-			{
-				"buffer_size": 4668,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/exhibitions.hbs",
-			"settings":
-			{
-				"buffer_size": 7240,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/templates/artist/kress.hbs",
-			"settings":
-			{
-				"buffer_size": 3432,
+				"buffer_size": 1417,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -75,7 +48,7 @@
 			"file": "app/templates/index.hbs",
 			"settings":
 			{
-				"buffer_size": 5711,
+				"buffer_size": 4597,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -89,12 +62,14 @@
 			}
 		},
 		{
-			"file": "app/templates/components/artist-page-nav.hbs",
+			"contents": "Package Control Messages\n========================\n\nDashDoc\n-------\n\n  # Added support for linux\n  \n  DashDoc can now be used on linux, with the help of xdg-utils tool.\n\n  # Warning, breaking change!\n  \n  After a long discussion in https://github.com/farcaller/DashDoc/issues/29\n  I came to decision to change the default hotkeys (ctrl+h and ctrl+alt+h).\n  Given there are no good alternatives, this version REMOVES the default hotkey,\n  leaving the choice to the user.\n  \n  You can always use the command palette too.\n  \n  To set up the hotkey for dash open the Preferences > Key Bindings from the menu\n  and add a new entry that looks like this:\n  \n      { \"keys\": [\"YOUR HOTKEY\"], \"command\": \"dash_doc\"}\n  \n  for the default mode\n  \n      { \"keys\": [\"YOUR HOTKEY\"], \"command\": \"dash_doc\",\n                                 \"args\": { \"flip_syntax_sensitive\": true } }\n  \n  for the flipped case sensitive mode.\n\n\nGitGutter\n---------\n\n  1.7.6:\n  ------\n  \n     C H A N G E L O G\n  \n    Fix:\n     - Enable GitGuter incase \"git_gutter_enable\" is not present.\n     - Support Info module provides no GitGutter version.\n     - Calling git_gutter_diff_popup with missing mdpopups causes exception.\n  \n    README:\n     - Update Troubleshooting for MacOS Xcode license.\n     - Added Monokai Pro to supported color schemes list.\n  \n    Enhancement:\n     - Improve diff popup visibility on light color schemes\n     - Show commit details in Compare against branch/tag\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n",
 			"settings":
 			{
-				"buffer_size": 107,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 2171,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -172,29 +147,33 @@
 		"/Users/alanna/Sites/com.vergepdx/public",
 		"/Users/alanna/Sites/com.vergepdx/public/assets",
 		"/Users/alanna/Sites/com.vergepdx/public/assets/images",
-		"/Users/alanna/Sites/com.vergepdx/public/assets/images/beaver",
-		"/Users/alanna/Sites/com.vergepdx/public/assets/images/features",
-		"/Users/alanna/Sites/com.vergepdx/public/assets/images/thumbs"
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images/cranmore"
 	],
 	"file_history":
 	[
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/beaver.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/rittenhouse.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/haberman.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/beaver.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/cranmore.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/about.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/reeves.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/oldham.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-page-nav.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/kress.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/kruse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/venues.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
 		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/about.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/venues.js",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/venue-list.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/schneider.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
 		"/Users/alanna/Sites/natureofcode/The-Nature-of-Code-Examples-master/README.md",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-list.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/artist/risse.js",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/index.html",
 		"/Users/alanna/Sites/com.vergepdx/app/router.js",
 		"/Users/alanna/Sites/com.vergepdx/config/environment.js",
@@ -299,13 +278,7 @@
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/components/artist-list.js",
 		"/Users/alanna/Sites/com.bootstrap/bootstrap-inter/index.html",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/about.js",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/app/routes/about.js",
-		"/Users/alanna/Documents/Geek/rsync.txt",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/about.hbs",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/components/bookmark-listing.hbs",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/app/templates/application.hbs",
-		"/Users/alanna/Sites/geek/terminal_cheet_sheets/terminal windows",
-		"/Users/alanna/Sites/geek/terminal_cheet_sheets/rsync -vanc angrypirate@alannarisse.com::home:angr"
+		"/Users/alanna/Sites/ember_essentials/bookmarker/app/routes/about.js"
 	],
 	"find":
 	{
@@ -329,6 +302,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"nelson",
+			"beaver",
 			"nelson",
 			"oldham-akemi-group",
 			"reeves",
@@ -403,6 +378,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"haberman",
+			"rittenhouse",
+			"cranmore",
+			"risse",
 			"kress",
 			"cress",
 			"beaver",
@@ -438,24 +417,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/artist/reeves.hbs",
+					"file": "app/templates/artist/schneider.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5724,
+						"buffer_size": 1417,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								5724
+								928,
+								928
 							]
 						],
 						"settings":
@@ -465,37 +444,6 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1938.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/templates/artist/oldham.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4668,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3482,
-								3482
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -503,20 +451,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/templates/exhibitions.hbs",
+					"buffer": 1,
+					"file": "app/templates/index.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7240,
+						"buffer_size": 4597,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								528,
-								528
+								1667,
+								617
 							]
 						],
 						"settings":
@@ -527,74 +475,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/templates/artist/kress.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3432,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								576,
-								576
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 80.0,
+						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/templates/index.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1794,
-								1794
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 146.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "my_ember_notes.txt",
 					"semi_transient": true,
 					"settings":
@@ -616,39 +504,40 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "app/templates/components/artist-page-nav.hbs",
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 2171,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								2171,
+								2171
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

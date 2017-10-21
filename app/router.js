@@ -44,6 +44,9 @@ Router.map(function() {
     this.route('cranmore');
     this.route('beaver');
     this.route('kress');
+    this.route('rittenhouse');
+    this.route('haberman');
+    this.route('harding');
   });
   this.route('news');
   this.route('posts');
