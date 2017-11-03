@@ -1,0 +1,461 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Pre",
+				"preventDefault"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"tran",
+				"translateX()"
+			],
+			[
+				"open",
+				"no-open-quote"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"backface-visibility"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"background-c",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 165.0,
+		"last_filter": "reindent",
+		"selected_items":
+		[
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"paca",
+				"Package Control: Install Package"
+			],
+			[
+				"set",
+				"Set Syntax: Gulpfile JS"
+			],
+			[
+				"set gru",
+				"Set Syntax: Gruntfile JS"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"set java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			]
+		],
+		"width": 656.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alanna/Sites/com.businessblocks/my_notes.txt",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_home.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_buttons.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/layout/_base.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_video.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_subnavs.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/index.html",
+		"/Users/alanna/Sites/com.businessblocks/gulpfile.js",
+		"/Users/alanna/Sites/com.businessblocks/main/static/js/bb.js",
+		"/Users/alanna/Sites/com.businessblocks/main/urls.py",
+		"/Users/alanna/Sites/com.businessblocks/main/views.py",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/about.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/base/_typography.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_about.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_carousel.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/multi_slide.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/global_styles.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/programs/marketing.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_images.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_whyus.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/why_us.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/team.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/includes/footer.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/layout/_header.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/careers.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_heros.scss",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/bb2dot0/code snippets/hubspot_nav_tochangeforv2.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_tabs.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/base/_sizes.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/layout/_footer.scss",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/Admin/admin_documentation/alanna_ramon_slack_convos.txt",
+		"/Users/alanna/Sites/docs.businessblocks/CodeLibraries.md",
+		"/Users/alanna/Sites/docs.businessblocks/Home.md",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/includes/careers.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/gated_content.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/includes/team.html",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/page-about.php",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/components/_forms.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/base/_module.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/forms/get_in_touch.html",
+		"/Users/alanna/Sites/com.businessblocks/main/sitemaps.py",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/includes/story.html",
+		"/Users/alanna/Sites/docs.businessblocks/Analytics.md",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_webinars.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/webinars/yelp.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/index.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/vendors/magnific-popup.scss",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/Admin/admin_documentation/working_it_out.txt",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/vimeo.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/webinars/yelp__show_test.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/full_screen_modal.html",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/bb2dot0/code snippets/watch_now_magnific_video_popup.html",
+		"/Users/alanna/Pictures/toolbelt/pics/save/archive/fd/thankyou.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/customers.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/company/contact.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/programs/restaurant_marketing.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/includes/nav.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/base.html",
+		"/Users/alanna/Pictures/toolbelt/pics/save/archive/fd/fun.html",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/bb2dot0/code snippets/nav_with_drop_that_worked1017.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_error.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/models.py",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/includes/footer_scripts.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/base.html",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/bb2dot0/live-urls.txt",
+		"/Users/alanna/Sites/com.businessblocks/BusinessBlocks/local_settings.py",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/programs/hr.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/errors/404.html",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/css/main.css",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/programs/finance.html",
+		"/Users/alanna/Sites/com.businessblocks/package-lock.json",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/error/404.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/min/alljs.min.js",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/code snippets/oktavideo.css",
+		"/Users/alanna/Sites/com.businessblocks/main/static/min/styles.min.css",
+		"/Users/alanna/Sites/com.businessblocks/main/static/css/main.css",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/main.scss",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/base/_colors.scss",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/resource-center/newsletter-form.php",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/template-parts/contact-form.php",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/forms/contact.html",
+		"/Users/alanna/Sites/com.businessblocks/main/static/js/jquery.cycle2.min.js",
+		"/Users/alanna/Sites/com.businessblocks/main/static/sass/pages/_module.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/sandbox/tabs.html",
+		"/Users/alanna/Desktop/song.txt",
+		"/Users/alanna/Desktop/Take It To The Limit.txt",
+		"/Users/alanna/Sites/com.businessblocks/main/static/css/mezzanine.css",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/programs.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/blog/blog_post_list.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/blog/blog_post_detail.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/default.html",
+		"/Users/alanna/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/alanna/Sites/com.businessblocks/.gitignore",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/style.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/index.html",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/header.php",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/page-careers.php",
+		"/Users/alanna/Sites/businessblocks.co/src/wp-content/themes/twentysixteen-child/footer.php",
+		"/Users/alanna/Sites/com.businessblocks/BusinessBlocks/settings.py",
+		"/Users/alanna/Sites/docs.businessblocks/Sass.md",
+		"/Users/alanna/Sites/com.whatshebuilding/quickstart.html",
+		"/Users/alanna/Sites/com.whatshebuilding/index.html",
+		"/Users/alanna/Sites/docs.businessblocks/SeoPrinciples.md",
+		"/Users/alanna/Sites/docs.businessblocks/MD Guide.md",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/Development/settings.ar-sass.py",
+		"/Users/alanna/Sites/com.businessblocks/templates/errors/500.html",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/base/_typography.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/base/_media.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/layout/_base.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/layout/_header.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/layout/_footer.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/components/_media.scss",
+		"/Users/alanna/Sites/com.businessblocks/BusinessBlocks/urls.py",
+		"/Users/alanna/Sites/com.businessblocks/requirements.txt",
+		"/Users/alanna/Sites/com.businessblocks/static/css/bootstrap-grid.min.css",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/nav.html",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/base/_colors.scss",
+		"/Users/alanna/Sites/com.businessblocks/templates/main/footer.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/style.html",
+		"/Users/alanna/Sites/com.businessblocks/static/css/bootstrap.css",
+		"/Users/alanna/Sites/com.businessblocks/static/min/styles.min.css",
+		"/Users/alanna/Sites/com.businessblocks/templates/pages/menus/primary.html",
+		"/Users/alanna/Sites/com.businessblocks/templates/pages/menus/dropdown.html",
+		"/Users/alanna/Sites/com.businessblocks/static/css/bootstrap-rtl.css",
+		"/Users/alanna/Documents/Work/clients/Business Blocks/code snippets/django_sass_gulp.js",
+		"/Users/alanna/Sites/docs.businessblocks/Branching.md",
+		"/Users/alanna/Sites/com.businessblocks/static/sass/components/_buttons.scss",
+		"/Users/alanna/Sites/com.businessblocks/static/css/main.css"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"<current file>",
+			"/Users/alanna/Sites/com.businessblocks,-*.css",
+			"/Users/alanna/Sites/com.businessblocks",
+			"<current file>",
+			"",
+			"/Users/alanna/Sites/com.businessblocks"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"2px",
+			"tagline",
+			"see how",
+			"carousel-item",
+			"mx-auto",
+			"carousel",
+			"course",
+			"1.75rem",
+			"font-size",
+			"form-controlss",
+			"tagline",
+			"whyus-thumbs",
+			"news",
+			"hero-txt",
+			".hero-txt",
+			"16px",
+			"video",
+			"Amtrust",
+			".radbox",
+			"getin",
+			"getintouch",
+			"INSTA",
+			"jquery.magnific",
+			"INSTALLE",
+			"about",
+			"Lucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)",
+			"Lucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)\nLucas Haley (lucasmhaley@gmail.com)",
+			"hour of code",
+			"video",
+			"video-wrapper",
+			"gulp-sass",
+			"}",
+			"background-image",
+			"ul.tabs",
+			"$xlight",
+			"foo",
+			"        <p class=\"text-left\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam nunc, molestie ut nunc sit amet, commodo fermentum arcu. Pellentesque pulvinar ultrices ultricies. Etiam volutpat, urna eu hendrerit laoreet, felis diam pharetra sapien, a fermentum mauris eros non arcu.</p>",
+			"        <p class=\"text-left\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quam nunc, molestie ut nunc sit amet, commodo fermentum arcu. Pellentesque pulvinar ultrices ultricies. Etiam volutpat, urna eu hendrerit laoreet, felis diam pharetra sapien, a fermentum mauris eros non arcu.</p>\n",
+			"SITE",
+			"login",
+			"type",
+			"debug",
+			"gulp",
+			"favic",
+			"SECRE",
+			"STATIC",
+			"real_project_name",
+			"whitenoise",
+			"PROJECT_A",
+			"statis",
+			"local",
+			"mixins",
+			"bootstrap-rtl",
+			"Mezzanin",
+			".css",
+			"allowed"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"carousel-multi-item",
+			"you"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "harding.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gitig",
+				"businessblocks.co/.gitignore"
+			],
+			[
+				"extension",
+				"businessblocks.co/node_modules/websocket-extensions/lib/websocket_extensions.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
