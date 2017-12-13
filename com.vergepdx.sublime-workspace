@@ -36,40 +36,32 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/artist/schneider.hbs",
+			"contents": "Introduction: Hello! I am a web developer, artist, and writer. I've been developing for the web since 1998 and worked in software quality assurance before then. I have a BFA and an MFA in visual art. I've written about a variety of subjects for Webmonkey, Red Tricycle, John Wiley and Sons, and a few small arts publications. I left tech in 2010 to raise my kid, get my masters degree so that I could teach, and frankly because I was burnt out. I have returned full-force. I want to help increase the percentages of women in tech by helping kids and teens thrive, and by finding ways of improving tech environments for women. Glad to be here. https://medium.com/@alannarisse\n\n\nHelped BusinessBlocks with research, planning and execution of a transition from a Wordpress website to a Django?python website that will allow for more growth and flexibility as their business grows to incorporate more features and technologies.",
 			"settings":
 			{
-				"buffer_size": 1417,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"buffer_size": 923,
+				"line_ending": "Unix",
+				"name": "Introduction: Hello! I am a web developer, artist,"
 			}
 		},
 		{
-			"file": "app/templates/index.hbs",
+			"contents": "Package Control Messages\n========================\n\nGitGutter\n---------\n\n  1.7.10:\n  -------\n  \n    Enhancement:\n     - Add new SublimeLinter protected regions key\n     - Add support for custom environment variables\n     - Add protected regions for diff popup (Issue #476)\n  \n    Fix:\n     - mangled {{branch}} text when `git status` output is colored (Issue #474)\n  \n    README:\n     - Fix some typos\n     - Add description of \"diff_popup_protected_regions\" setting\n     - Add description of \"env\" setting\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n",
 			"settings":
 			{
-				"buffer_size": 4597,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "my_ember_notes.txt",
-			"settings":
-			{
-				"buffer_size": 1619,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nDashDoc\n-------\n\n  # Added support for linux\n  \n  DashDoc can now be used on linux, with the help of xdg-utils tool.\n\n  # Warning, breaking change!\n  \n  After a long discussion in https://github.com/farcaller/DashDoc/issues/29\n  I came to decision to change the default hotkeys (ctrl+h and ctrl+alt+h).\n  Given there are no good alternatives, this version REMOVES the default hotkey,\n  leaving the choice to the user.\n  \n  You can always use the command palette too.\n  \n  To set up the hotkey for dash open the Preferences > Key Bindings from the menu\n  and add a new entry that looks like this:\n  \n      { \"keys\": [\"YOUR HOTKEY\"], \"command\": \"dash_doc\"}\n  \n  for the default mode\n  \n      { \"keys\": [\"YOUR HOTKEY\"], \"command\": \"dash_doc\",\n                                 \"args\": { \"flip_syntax_sensitive\": true } }\n  \n  for the flipped case sensitive mode.\n\n\nGitGutter\n---------\n\n  1.7.6:\n  ------\n  \n     C H A N G E L O G\n  \n    Fix:\n     - Enable GitGuter incase \"git_gutter_enable\" is not present.\n     - Support Info module provides no GitGutter version.\n     - Calling git_gutter_diff_popup with missing mdpopups causes exception.\n  \n    README:\n     - Update Troubleshooting for MacOS Xcode license.\n     - Added Monokai Pro to supported color schemes list.\n  \n    Enhancement:\n     - Improve diff popup visibility on light color schemes\n     - Show commit details in Compare against branch/tag\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n",
-			"settings":
-			{
-				"buffer_size": 2171,
+				"buffer_size": 1222,
 				"line_ending": "Unix",
 				"name": "Package Control Messages",
 				"read_only": true,
 				"scratch": true
+			}
+		},
+		{
+			"contents": "Hyde and her colleagues hope that people use the consistent evidence that males and females are basically alike to alleviate misunderstanding and correct unequal treatment. Hyde is far from alone in her observation that the clear misrepresentation of sex differences, given the lack of evidence, harms men and women of all ages. In a September 2005 press release on her research issued by the American Psychological Association (APA), she said, \"The claims [of gender difference] can hurt women's opportunities in the workplace, dissuade couples from trying to resolve conflict and communication problems and cause unnecessary obstacles that hurt children and adolescents' self-esteem.\"",
+			"settings":
+			{
+				"buffer_size": 686,
+				"line_ending": "Unix",
+				"name": "Hyde and her colleagues hope that people use the c"
 			}
 		}
 	],
@@ -80,10 +72,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 301.0,
-		"last_filter": "inden",
+		"height": 97.0,
+		"last_filter": "set hand",
 		"selected_items":
 		[
+			[
+				"set hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"set text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
 			[
 				"inden",
 				"Indentation: Reindent Lines"
@@ -113,7 +117,7 @@
 				"Fetch: Package"
 			]
 		],
-		"width": 601.0
+		"width": 656.0
 	},
 	"console":
 	{
@@ -141,36 +145,41 @@
 		"/Users/alanna/Sites/com.vergepdx/app/helpers",
 		"/Users/alanna/Sites/com.vergepdx/app/models",
 		"/Users/alanna/Sites/com.vergepdx/app/routes",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/exhibitions",
+		"/Users/alanna/Sites/com.vergepdx/app/styles",
 		"/Users/alanna/Sites/com.vergepdx/app/templates",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components",
 		"/Users/alanna/Sites/com.vergepdx/public",
 		"/Users/alanna/Sites/com.vergepdx/public/assets",
-		"/Users/alanna/Sites/com.vergepdx/public/assets/images",
-		"/Users/alanna/Sites/com.vergepdx/public/assets/images/cranmore"
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/harding.hbs",
+		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
+		"/Users/alanna/Sites/com.vergepdx/app/styles/app.scss",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/about.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/schneider.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/styles/verge.scss",
+		"/Users/alanna/Documents/Verge Docs/Rhonda Vanover/vanover_backup_bio.txt",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/rittenhouse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/haberman.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/beaver.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/cranmore.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/about.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/reeves.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/oldham.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-page-nav.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/kress.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/kruse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/venues.hbs",
-		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/venues.js",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/venue-list.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/schneider.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
 		"/Users/alanna/Sites/natureofcode/The-Nature-of-Code-Examples-master/README.md",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-list.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/artist/risse.js",
@@ -274,15 +283,11 @@
 		"/Users/alanna/Documents/Work/Resumes/resume_from_aquent_site.txt",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/helpers/venue-title.js",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/components/artist-page-nav.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/package.json",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/components/artist-list.js",
-		"/Users/alanna/Sites/com.bootstrap/bootstrap-inter/index.html",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/routes/about.js",
-		"/Users/alanna/Sites/ember_essentials/bookmarker/app/routes/about.js"
+		"/Users/alanna/Sites/ember_essentials/verge-ember/package.json"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -302,6 +307,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"epoc",
 			"nelson",
 			"beaver",
 			"nelson",
@@ -417,121 +423,90 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/artist/schneider.hbs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1417,
+						"buffer_size": 923,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								928,
-								928
+								923,
+								923
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "Introduction: Hello! I am a web developer, artist,",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/templates/index.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4597,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1667,
-								617
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "my_ember_notes.txt",
-					"semi_transient": true,
+					"buffer": 1,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1619,
+						"buffer_size": 1222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								688,
-								629
+								111,
+								111
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_indent": false,
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 408.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2171,
+						"buffer_size": 686,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2171,
-								2171
+								0,
+								686
 							]
 						],
 						"settings":
 						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
+							"auto_name": "Hyde and her colleagues hope that people use the c",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -545,7 +520,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -578,11 +553,15 @@
 	{
 		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "com.vergepdx.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
