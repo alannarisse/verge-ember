@@ -36,10 +36,11 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/alanna/Sites/ember_essentials/my_ember_notes.txt",
+			"file": "/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/index.hbs",
 			"settings":
 			{
-				"buffer_size": 1593,
+				"buffer_size": 1537,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -114,7 +115,10 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/alanna/Sites/ember_essentials"
+		"/Users/alanna/Sites/ember_essentials",
+		"/Users/alanna/Sites/ember_essentials/verge-ember",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public",
+		"/Users/alanna/Sites/ember_essentials/verge-ember/public/assets"
 	],
 	"file_history":
 	[
@@ -373,28 +377,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/alanna/Sites/ember_essentials/my_ember_notes.txt",
+					"file": "/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/index.hbs",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1593,
+						"buffer_size": 1537,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								618,
-								645
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

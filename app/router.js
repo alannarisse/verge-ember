@@ -47,6 +47,7 @@ Router.map(function() {
     this.route('rittenhouse');
     this.route('haberman');
     this.route('harding');
+    this.route('weisenburger');
   });
   this.route('news');
   this.route('posts');
