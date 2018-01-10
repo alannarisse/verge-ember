@@ -12,7 +12,7 @@ let artistList = [
 },
 {
   id: 2,
-  image: 'assets/images/thumbs/barce220sq.jpg',
+  image: 'assets/images/thumbs/voidv2_220sq.jpg',
   title: 'Epochal Void',
   page: 'artist.void',
   link: 'http://epochalvoid.com/',
