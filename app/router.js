@@ -48,10 +48,12 @@ Router.map(function() {
     this.route('haberman');
     this.route('harding');
     this.route('weisenburger');
+    this.route('oliveira');
   });
   this.route('news');
   this.route('posts');
   this.route('stall-tokyo');
+  this.route('calendar');
 });
 
 export default Router;

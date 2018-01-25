@@ -96,9 +96,7 @@ header {
 }
 
 footer {
-  position: fixed;
-  bottom:0;
-  padding:20px 20px 0 20px;
+  padding:20px 40px 0 40px;
   width:100%;
   background-color:#e7e7e7;
   margin-top:40px;
@@ -113,10 +111,17 @@ footer {
   }
 }
 
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul.social li {display: inline;padding-right:40px;}
 
 // Adds space above footer
 .container {
-  padding-bottom:120px;
+  padding-bottom:40px;
 }
 .mobile-footer {
   display:none;
@@ -215,6 +220,9 @@ div.artist-page img {
   text-align:center;
   padding-top:50px;
 }
+
+// Font Awesome
+.fa {font-size:3em !important;}
 
 // Media Queries
 @media (min-width:1200px){
