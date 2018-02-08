@@ -1,8 +1,1 @@
-{
-  "name": "verge-ember",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "Justified-Gallery": "~3.6.1",
-    "lightbox2": "^2.9.0"
-  }
-}
+{"name":"verge-ember","dependencies":{"Justified-Gallery":"~3.6.1","lightbox2":"^2.9.0"}}

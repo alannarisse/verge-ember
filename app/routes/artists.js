@@ -12,6 +12,14 @@ let artistList = [
 },
 {
   id: 2,
+  image: 'assets/images/thumbs/wolf220sq.jpg',
+  title: 'Rachel Wolf',
+  page: 'artist.wolf',
+  link: 'http://rachelwolf.com',
+  about: 'achel Wolf specializes in camera-less photography, alternative/ antique processes, and immersive environments through light-based installations. Rachel exhibits her work nationally, and is an educator and speaker in the field. Originally from Anchorage, Alaska, Rachel earned her BA from Hampshire College and her MFA from Pacific Northwest College of Art. Rachel currently resides in Portland, OR.'
+},
+{
+  id: 3,
   image: 'assets/images/thumbs/voidv2_220sq.jpg',
   title: 'Epochal Void',
   page: 'artist.void',
@@ -19,7 +27,7 @@ let artistList = [
   about: 'Specializing in conceptual drawing, printmaking, mixed media art, paper sculpture, lettering and collage, EV creates bodies of work which explore concepts of impermanence, betweenness, as well as social & spiritual bondage. The process is, itself, a gesture of freedom, of liberation from the constraint of measurement, of definition, of expectation.'
 },
 {
-  id: 3,
+  id: 4,
   image: 'assets/images/thumbs/oliveira220sq.jpg',
   title: 'Milla Oliveira',
   page: 'artist.oliveira',
@@ -27,7 +35,15 @@ let artistList = [
   about: 'Milla Oliveira is an Oregon-based visual artist who explores the connections between language systems and their expressions through materials and the body. Originally from Rio de Janeiro, Oliveira has learned and taught in various institutions that ranged from traditional local dance practices in the streets to university classrooms. She received her BFA from Oregon State University.'
 },
 {
-  id: 4,
+  id: 5,
+  image: 'assets/images/thumbs/bose220sq.jpg',
+  title: 'Subarna Taldukder Bose',
+  page: 'artist.bose',
+  link: 'https://subarnatalbose.wixsite.com/subarna',
+  about: 'Subarna is originally from Calcutta, India. She has recently exhibited her art in various exhibitions across Corvallis. Before coming to US in 2015 she worked as a journalist in India for five years. She holds a BA in English Literature and a PG Dip in Journalism. She volunteers at Corvallis Arts Center and OSU Folk Club.'
+},
+{
+  id: 6,
   image: 'assets/images/thumbs/rissem220sq.jpg',
   title: 'Alanna Risse',
   page: 'artist.risse',
@@ -35,15 +51,15 @@ let artistList = [
   about: 'Alanna Risse is the curator and mastermind behind Verge PDX. She is an installation artist, mother, and web developer. She holds a Bachelors of Fine Art from California College of the Arts and a Masters of Fine Art from Pacific Northwest College of Art.'
 },
 {
-  id: 5,
-  image: 'assets/images/thumbs/lorish220sq.jpg',
+  id: 7,
+  image: 'assets/images/thumbs/lorish220sqv3.jpg',
   title: 'A•C•M Lorish',
   page: 'artist.lorish',
   link: 'http://www.acmlorish.com/',
   about: 'A•C•M• Lorish was born in Eugene, Oregon. He studied at School of the Art Institute of Chicago, and Pacific Northwest College of Art where in 2013 he received his MFA in Visual Studies. Selected exhibitions include False Front in Portland, Rockerill in Charleroi Belgium, and dOCUMENTA (13) in Kassel, Germany. He is a founding member of the art collective Danger Punch. He lives and works in Portland Oregon.'
 },
 {
-  id: 6,
+  id: 8,
   image: 'assets/images/thumbs/vanover220sqv2.jpg',
   title: 'Rhonda Vanover',
   page: 'artist.vanover',
@@ -51,7 +67,7 @@ let artistList = [
   about: 'Rhonda Vanover has been honored by Pictures of the Year International, Women in Photojournalism, and The National Press Photographers Association. She is a professor at Ithica College. She received her MFA in Visual Studies from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 },
 {
-  id: 7,
+  id: 9,
   image: 'assets/images/thumbs/miyamoto220sq.jpg',
   title: 'Kanani Miyamoto',
   page: 'artist.miyamoto',
@@ -59,7 +75,7 @@ let artistList = [
   about: 'Kanani Miyamoto is a printmaker, teacher, and muralist. She received his MFA in Print Media from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 },
 {
-  id: 8,
+  id: 10,
   image: 'assets/images/thumbs/harding220sq.jpg',
   title: 'Bryn Harding',
   page: 'artist.harding',
@@ -67,7 +83,7 @@ let artistList = [
   about: 'Bryn Harding (MFA in Print Media, PNCA 2017) is an artists living and working in Portland. The paintings in this show were made after a summer spent behind the wheel and too much time pondering what roads do to landscapes and to our spirits.'
 },
 {
-  id: 9,
+  id: 11,
   image: 'assets/images/thumbs/haberman220sq.jpg',
   title: 'Chris Haberman',
   page: 'artist.haberman',
@@ -75,7 +91,7 @@ let artistList = [
   about: 'All of Habermans artwork is created recycled objects, found material from the streets and alleyways of his hometown, focusing on subjects like people, politics, the region, pop-culture, media, music, film and literature.'
 },
 {
-  id: 10,
+  id: 12,
   image: 'assets/images/thumbs/reeves_akemi220sq.jpg',
   title: 'Veronica Reeves',
   page: 'artist.reeves',
@@ -83,7 +99,7 @@ let artistList = [
   about: 'I look for descriptions and visuals that collapse the conceived separation between self and environment and expand the perception of being an Earth bound body. Accompanying this interest includes the challenge of sharing the Earth’s vulnerability through the lens of personal narrative. Paint and process become my metaphors for emotional, bodily, and Earthly processes in which I layer indications of landscapes, structures, and figures.'
 },
 {
-  id: 11,
+  id: 13,
   image: 'assets/images/thumbs/berlin220sq.jpg',
   title: 'Jason Berlin',
   page: 'artist.berlin',
@@ -91,7 +107,7 @@ let artistList = [
   about: 'My art practice includes the medium of oil painting, sculpture, installation, college, and curation. I privilege play through improvisational fabrication and utilizes camp as a way to speak to queer sexuality.'
 },
 {
-  id: 12,
+  id: 14,
   image: 'assets/images/thumbs/rittenhouse220sq.jpg',
   title: 'Alexis Rittenhouse',
   page: 'artist.rittenhouse',
@@ -99,7 +115,7 @@ let artistList = [
   about: 'Alexis Rittenhouses work is blobular and clumped, with an emphasis on the space between, and the world within worlds that is possible when examining groups on a specific surface.'
 },
 {
-  id: 13,
+  id: 15,
   image: 'assets/images/thumbs/schneiderkvk220sq.jpg',
   title: 'Harry Schneider and Andreas Kindler von Knobloch',
   page: 'artist.schneider',
@@ -107,7 +123,7 @@ let artistList = [
   about: 'Harry Schneider is a print media artist. His work investigates everyday experience and elevates seemingly mundane moments. He received his MFA in Print Media from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 },
 {
-  id: 14,
+  id: 16,
   image: 'assets/images/thumbs/beaver220sq.jpg',
   title: 'Johnny Beaver',
   page: 'artist.beaver',
@@ -115,7 +131,7 @@ let artistList = [
   about: 'Johnny Beaver has spent the last 18 years practicing everything from web and graphic design, music composition and production, instrument / effect design, photography, sculpture, and more.'
 },
 {
-  id: 15,
+  id: 17,
   image: 'assets/images/thumbs/cranmore220sq.jpg',
   title: 'W.S. Cranmore',
   page: 'artist.cranmore',
@@ -123,7 +139,7 @@ let artistList = [
   about: 'W.S. Cranmore is a stream of consciousness abstract artist living in Milwaukie Oregon.'
 },
 {
-  id: 16,
+  id: 18,
   image: 'assets/images/thumbs/kress220sq.jpg',
   title: 'Kim Kress',
   page: 'artist.kress',
@@ -131,7 +147,7 @@ let artistList = [
   about: 'Kim Kress is an artist and a tattoo artist. She has been tattooing since 2003, and is the owner of Suite C Tattoo in SE Portland, OR.'
 },
 {
-  id: 17,
+  id: 19,
   image: 'assets/images/thumbs/quiroz220sq.jpg',
   title: 'Amanda Quiroz',
   page: 'artist.quiroz',
@@ -139,7 +155,7 @@ let artistList = [
   about: 'Amanda Quiroz draws from her personal entomological collection to explore themes of mortality and humility within Catholicism. Her intricate drawings of insects and the very dust from the air seek to illuminate the invisible.'
 },
 {
-  id: 18,
+  id: 20,
   image: 'assets/images/thumbs/simione220sq.jpg',
   title: 'Angela Simione',
   page: 'artist.simione',
@@ -147,7 +163,7 @@ let artistList = [
   about: 'Angela Simione is a New York painter and writer with a tremendous appreciation for all things black and white. She graduated from California College of the Arts in 2008 with High Distinction in Painting and Drawing.'
 },
 {
-  id: 19,
+  id: 21,
   image: 'assets/images/thumbs/mulder220sq.jpg',
   title: 'Rachel Mulder',
   page: 'artist.mulder',
@@ -155,7 +171,7 @@ let artistList = [
   about: 'Rachel Mulder earned her BFA in Printmaking from the Milwaukee Institute of Art & Design and has since adapted those printmaking techniques and processes into other art forms, namely drawing.'
 },
 {
-  id: 20,
+  id: 22,
   image: 'assets/images/thumbs/schlunegger220sq.jpg',
   title: 'Danielle Schlunegger-Warner',
   page: 'artist.schlunegger',
@@ -163,7 +179,7 @@ let artistList = [
   about: 'Danielle Schlunegger-Warner grew up amongst the shell shops and sand dunes of Ventura, CA. Her artwork is strongly influenced by 18th century Cabinets of Curiosity and early explorers.'
 },
 {
-  id: 21,
+  id: 23,
   image: 'assets/images/thumbs/mcgovern220sq.jpg',
   title: 'Kelly McGovern',
   page: 'artist.mcgovern',
@@ -171,7 +187,7 @@ let artistList = [
   about: 'Kelly McGovern is a multimedia artist. Her work explores motion and language in hopes of finding comfort in escape. She has shown nationally in several major cities including New York, Philadelphia, Washington DC, Salt Lake City, and Portland Oregon, as well as internationally in Hereford, UK. She received her BFA from Moore College of Art and Design in Philadelphia, Pennsylvania and received her MFA from the Hallie Ford School of Graduate Studies at Pacific Northwest College of Art in Portland, Oregon.'
 },
 {
-  id: 22,
+  id: 24,
   image: 'assets/images/thumbs/nelson220sq.jpg',
   title: 'Kara Nelson',
   page: 'artist.nelson',
@@ -179,7 +195,7 @@ let artistList = [
   about: 'Kara Nelson is an artist living and working in the Oakland, CA. She uses her own trash to collage images of landscapes and make small-scale, abstract, and sometimes functional sculptures. '
 },
 {
-  id: 23,
+  id: 25,
   image: 'assets/images/thumbs/morin220sq.jpg',
   title: 'Bertrand Morin',
   page: 'artist.morin',
@@ -187,7 +203,7 @@ let artistList = [
   about: 'I use written and photographic observations as the foundation for the creation of fictional characters, alternate worlds, and illogical anthropologies. The various levels of obfuscation and revelation that the text and images provide for viewers is intended to place my work in a limbo between truth and fiction, and to bend the line between historical archive and pseudoscientific farce.'
 },
 {
-  id: 24,
+  id: 26,
   image: 'assets/images/thumbs/kruse220sq.jpg',
   title: 'Brandi Kruse',
   page: 'artist.kruse',
@@ -195,7 +211,7 @@ let artistList = [
   about: 'Many of these pieces are part of an ongoing body of work in which excerpts from her photographs are presented as framing devices. This process allows her to elevate the overlooked and question relationships. There is tension to be explored between presence and erasure, past and potential, the tangible and the imagination, the written and the reader.'
 },
 {
-  id: 25,
+  id: 27,
   image: 'assets/images/thumbs/reed220sq.jpg',
   title: 'Ehren Reed',
   page: 'artist.reed',

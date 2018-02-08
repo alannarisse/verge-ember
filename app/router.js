@@ -49,11 +49,17 @@ Router.map(function() {
     this.route('harding');
     this.route('weisenburger');
     this.route('oliveira');
+    this.route('wolf');
+    this.route('bose');
   });
   this.route('news');
   this.route('posts');
   this.route('stall-tokyo');
   this.route('calendar');
+
+  this.route('group', function() {
+    this.route('akasu-winter2018');
+  });
 });
 
 export default Router;
