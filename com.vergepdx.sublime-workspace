@@ -35,6 +35,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/controllers/navigation-list.js",
+			"settings":
+			{
+				"buffer_size": 292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/news.hbs",
+			"settings":
+			{
+				"buffer_size": 5454,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/artist/oliveira.hbs",
+			"settings":
+			{
+				"buffer_size": 5283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,26 +137,25 @@
 	[
 		"/Users/alanna/Sites/com.vergepdx",
 		"/Users/alanna/Sites/com.vergepdx/app",
+		"/Users/alanna/Sites/com.vergepdx/app/controllers",
+		"/Users/alanna/Sites/com.vergepdx/app/helpers",
+		"/Users/alanna/Sites/com.vergepdx/app/models",
 		"/Users/alanna/Sites/com.vergepdx/app/routes",
-		"/Users/alanna/Sites/com.vergepdx/app/templates",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/components",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/group",
-		"/Users/alanna/Sites/com.vergepdx/dist",
-		"/Users/alanna/Sites/com.vergepdx/dist/assets",
-		"/Users/alanna/Sites/com.vergepdx/dist/assets/images",
-		"/Users/alanna/Sites/com.vergepdx/dist/assets/images/bose",
-		"/Users/alanna/Sites/com.vergepdx/dist/assets/images/wolf"
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artist",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/exhibitions",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/group",
+		"/Users/alanna/Sites/com.vergepdx/dist"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/bose.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
+		"/Users/alanna/Sites/com.vergepdx/app/index.html",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/group/akasu-winter2018.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/venues.js",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/bose.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/footer-nav.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/lorish.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
 		"/Users/alanna/Sites/com.vergepdx/package.json",
@@ -143,7 +168,6 @@
 		"/Users/alanna/Sites/com.vergepdx/app/styles/app.scss",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/weisenburger.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/oliveira.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
 		"/Users/alanna/Documents/Work/clients/fishackathon/twitter blurb.txt",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/reeves.hbs",
@@ -165,7 +189,6 @@
 		"/Users/alanna/Sites/natureofcode/The-Nature-of-Code-Examples-master/README.md",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/artist-list.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/artist/risse.js",
-		"/Users/alanna/Sites/com.vergepdx/app/index.html",
 		"/Users/alanna/Sites/com.vergepdx/app/router.js",
 		"/Users/alanna/Sites/com.vergepdx/config/environment.js",
 		"/Users/alanna/Desktop/alan peters.txt",
@@ -263,6 +286,7 @@
 		"height": 106.0,
 		"where_history":
 		[
+			"<current file>,/Users/alanna/Sites/com.vergepdx",
 			"<current file>",
 			"<current file>,/Users/alanna/Sites/com.vergepdx",
 			"<current file>",
@@ -278,6 +302,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"lightbox",
 			"weisenburger",
 			"babel",
 			"firebase",
@@ -404,8 +429,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/controllers/navigation-list.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/templates/news.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/artist/oliveira.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],

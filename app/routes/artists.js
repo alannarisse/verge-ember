@@ -37,7 +37,7 @@ let artistList = [
 {
   id: 5,
   image: 'assets/images/thumbs/bose220sq.jpg',
-  title: 'Subarna Taldukder Bose',
+  title: 'Subarna Talukder Bose',
   page: 'artist.bose',
   link: 'https://subarnatalbose.wixsite.com/subarna',
   about: 'Subarna is originally from Calcutta, India. She has recently exhibited her art in various exhibitions across Corvallis. Before coming to US in 2015 she worked as a journalist in India for five years. She holds a BA in English Literature and a PG Dip in Journalism. She volunteers at Corvallis Arts Center and OSU Folk Club.'
