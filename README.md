@@ -9,10 +9,10 @@ You will need the following things properly installed on your computer.
 
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
-* [Bower](https://bower.io/)
+* [Bower](https://bower.io/) correction - now yarn
 * [Ember CLI](https://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
-* [Ember-Bootsrap]()
+* [Ember-Bootstrap]()
 
 ## Installation
 

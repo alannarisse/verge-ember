@@ -36,14 +36,6 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/navigation-list.js",
-			"settings":
-			{
-				"buffer_size": 292,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/templates/news.hbs",
 			"settings":
 			{
@@ -69,10 +61,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 97.0,
-		"last_filter": "set hand",
+		"height": 59.0,
+		"last_filter": "handl",
 		"selected_items":
 		[
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"javac",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
 			[
 				"set hand",
 				"Set Syntax: Handlebars"
@@ -102,10 +110,6 @@
 				"Set Syntax: JavaScript"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"set css",
 				"Set Syntax: CSS"
 			],
@@ -114,7 +118,7 @@
 				"Fetch: Package"
 			]
 		],
-		"width": 656.0
+		"width": 444.0
 	},
 	"console":
 	{
@@ -136,18 +140,12 @@
 	"expanded_folders":
 	[
 		"/Users/alanna/Sites/com.vergepdx",
-		"/Users/alanna/Sites/com.vergepdx/app",
-		"/Users/alanna/Sites/com.vergepdx/app/controllers",
-		"/Users/alanna/Sites/com.vergepdx/app/helpers",
-		"/Users/alanna/Sites/com.vergepdx/app/models",
-		"/Users/alanna/Sites/com.vergepdx/app/routes",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/artist",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/exhibitions",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/group",
-		"/Users/alanna/Sites/com.vergepdx/dist"
+		"/Users/alanna/Sites/com.vergepdx/node_modules"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Sites/com.vergepdx/bower.json",
+		"/Users/alanna/.bash_profile",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/bose.hbs",
@@ -273,13 +271,11 @@
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reed.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/morin.hbs",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reeves.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/risse.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/schlunegger.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/lorish.hbs"
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/risse.hbs"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -434,35 +430,6 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/navigation-list.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "app/templates/news.hbs",
 					"semi_transient": false,
 					"settings":
@@ -488,11 +455,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "app/templates/artist/oliveira.hbs",
 					"semi_transient": false,
 					"settings":
@@ -516,10 +483,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 50.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -527,7 +494,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -568,7 +535,7 @@
 	"project": "com.vergepdx.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

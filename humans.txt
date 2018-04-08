@@ -1,0 +1,42 @@
+                            
+/* TEAM */
+
+                            
+Owner, Curator, Web Developer: Alanna Risse.
+
+                            
+Site: http://vergepdx.com/contact
+
+                            
+Twitter: vergepdx
+
+                            
+Location: Portland OR, USA.
+
+
+							
+/* THANKS */
+
+							
+Veronica Reeves
+Jason Berlin
+Tom Risse
+Brandi Kruse
+Lucas Haley
+
+
+                            
+/* SITE */
+
+                            
+Last update: 02/19/2018
+
+                            
+Standards: HTML5, CSS3,..
+
+                            
+Components: Modernizr, jQuery, etc.
+
+                            
+Software: Software used for the development
+   
