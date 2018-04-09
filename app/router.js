@@ -52,6 +52,8 @@ Router.map(function() {
     this.route('wolf');
     this.route('bose');
     this.route('abbott');
+    this.route('moran');
+    this.route('janchar');
   });
   this.route('news');
   this.route('posts');
