@@ -36,19 +36,37 @@
 	"buffers":
 	[
 		{
-			"file": "app/templates/news.hbs",
+			"file": "app/routes/news.js",
 			"settings":
 			{
-				"buffer_size": 5454,
+				"buffer_size": 223,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/templates/artist/oliveira.hbs",
+			"file": "my_ember_notes.txt",
 			"settings":
 			{
-				"buffer_size": 5283,
+				"buffer_size": 1718,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/index.hbs",
+			"settings":
+			{
+				"buffer_size": 6211,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/templates/exhibitions.hbs",
+			"settings":
+			{
+				"buffer_size": 17223,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -140,32 +158,47 @@
 	"expanded_folders":
 	[
 		"/Users/alanna/Sites/com.vergepdx",
-		"/Users/alanna/Sites/com.vergepdx/node_modules"
+		"/Users/alanna/Sites/com.vergepdx/app",
+		"/Users/alanna/Sites/com.vergepdx/app/routes",
+		"/Users/alanna/Sites/com.vergepdx/app/templates",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist",
+		"/Users/alanna/Sites/com.vergepdx/public",
+		"/Users/alanna/Sites/com.vergepdx/public/assets",
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images",
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images/janchar",
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images/moran",
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images/thumbs"
 	],
 	"file_history":
 	[
+		"/Users/alanna/Sites/com.vergepdx/app/templates/news.hbs",
+		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
+		"/Users/alanna/Sites/index.php",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/abbott.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/janchar.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/oliveira.hbs",
+		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/moran.hbs",
+		"/Users/alanna/Sites/com.vergepdx/public/assets/images/moran/detail_allbutgone.jpg",
 		"/Users/alanna/Sites/com.vergepdx/bower.json",
 		"/Users/alanna/.bash_profile",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/risse.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/index.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/bose.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/routes/artists.js",
 		"/Users/alanna/Sites/com.vergepdx/app/index.html",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/group/akasu-winter2018.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/routes/venues.js",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/components/footer-nav.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/lorish.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/exhibitions.hbs",
 		"/Users/alanna/Sites/com.vergepdx/package.json",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/wolf.hbs",
 		"/Users/alanna/Sites/com.vergepdx/ember-cli-build.js",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/venues.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/void.hbs",
-		"/Users/alanna/Sites/com.vergepdx/my_ember_notes.txt",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/calendar.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/styles/app.scss",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/weisenburger.hbs",
-		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/oliveira.hbs",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/vanover.hbs",
 		"/Users/alanna/Documents/Work/clients/fishackathon/twitter blurb.txt",
 		"/Users/alanna/Sites/com.vergepdx/app/templates/artist/reeves.hbs",
@@ -265,17 +298,11 @@
 		"/Users/alanna/Sites/ember_essentials/verge-ember/bower.json",
 		"/Volumes/myrtle/Jason Feb 2107/jason_about_content",
 		"/Users/alanna/Sites/ember_essentials/verge-ember/dist/index.html",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/miyamoto.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/mulder.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/nelson.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reed.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/morin.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/reeves.hbs",
-		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/risse.hbs"
+		"/Users/alanna/Sites/ember_essentials/verge-ember/app/templates/miyamoto.hbs"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -298,6 +325,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"ruse",
 			"lightbox",
 			"weisenburger",
 			"babel",
@@ -425,31 +453,117 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/templates/news.hbs",
+					"file": "app/routes/news.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5454,
+						"buffer_size": 223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								77,
-								77
+								211,
+								211
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "my_ember_notes.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								90,
+								90
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/index.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1429,
+								835
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/templates/exhibitions.hbs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17223,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								791,
+								791
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -457,48 +571,17 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/templates/artist/oliveira.hbs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5283,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								697,
-								697
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Handlebars/grammars/Handlebars.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 50.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 25.0
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -535,7 +618,7 @@
 	"project": "com.vergepdx.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -54,6 +54,7 @@ Router.map(function() {
     this.route('abbott');
     this.route('moran');
     this.route('janchar');
+    this.route('casaletto');
   });
   this.route('news');
   this.route('posts');
